@@ -1,0 +1,17 @@
+title: 160 Antler Lake
+tagline: A five-bedroom house on twelve acres in the Adirondacks
+description: >-
+  A five-bedroom, two-bath Cape Cod on twelve private acres near Gore Mountain,
+  with lake rights to Antler Lake. Sleeps twelve. Booked directly, no platform
+  fee.
+author: Wirewalk
+url: https://rentals.wirewalk.com
+baseurl: ""
+permalink: /notes/:title/
+timezone: America/New_York
+markdown: kramdown
+highlighter: rouge
+kramdown: { input: GFM }
+plugins:
+  - jekyll-sitemap
+exclude: [README.md, Gemfile]
