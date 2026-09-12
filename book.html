@@ -56,7 +56,7 @@ permalink: /book/
     </div>
     <div class="card">
       <h3 style="margin-top:0">Rather just ask?</h3>
-      <p class="small">Email <a href="mailto:stay@wirewalk.com">stay@wirewalk.com</a>. If you are
+      <p class="small">Email <a href="mailto:rentals@wirewalk.com">rentals@wirewalk.com</a>. If you are
       trying to work out whether the house suits a particular group, that is usually a faster
       conversation than a form.</p>
     </div>
@@ -112,7 +112,7 @@ async function price() {
                              guests: Number($("#g").value), pets: !!$("#p").value }),
     });
     d = await r.json();
-  } catch { return say("Could not reach the booking system. Try again, or email stay@wirewalk.com.", "bad"); }
+  } catch { return say("Could not reach the booking system. Try again, or email rentals@wirewalk.com.", "bad"); }
 
   if (d.error) return say(d.error, "bad");
   if (!d.available) return say("Those dates are already taken. Try different ones — or email me, because a short move either way often works.", "bad");
