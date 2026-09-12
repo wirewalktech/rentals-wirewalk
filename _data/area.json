@@ -1,0 +1,2664 @@
+{
+ "categories": [
+  {
+   "category": "Skiing and winter sport",
+   "intro": "Gore Mountain is the reason most people come here in winter, and it is twenty minutes away — big enough to absorb a whole family for three days, and split across two bases so beginners and experts do not have to ski together. The rest of the snow, from a free town ice rink to 55 km of groomed nordic trails to a cave park you walk through on snowshoes, sits inside a half-hour drive.",
+   "items": [
+    {
+     "name": "Gore Mountain (main base, Peaceful Valley Road)",
+     "town": "North Creek",
+     "drive_minutes": 20,
+     "what": "New York's largest ski area and the anchor of the whole trip: four connected peaks, 2,537 ft of vertical, over 100 trails, 14 lifts including the eight-passenger Northwoods Gondola, terrain parks and a lot of glade skiing. State-run by ORDA, the same agency that runs Whiteface, so it is well groomed and heavily snowmade rather than boutique.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "teenagers",
+      "young children",
+      "grandparents",
+      "big group"
+     ],
+     "note": "Buy lift tickets online several days ahead, not at the window — advance online pricing is meaningfully cheaper and weekends and holiday weeks genuinely sell out, so a walk-up ticket is not guaranteed. Arrive early on a Saturday or holiday or you will park in an outer lot and walk in with your gear. Prices and hours change every season; check the site rather than any guide, including this one.",
+     "cost_band": "over $50pp",
+     "needs_booking": "advisable — buy tickets online at least a few days ahead; essential for holiday weeks",
+     "url": "https://goremountain.com/",
+     "confidence": "certain"
+    },
+    {
+     "name": "North Creek Ski Bowl and The Station lodge",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Gore's second base, in the village itself and half the drive from the house. It has its own lower-mountain terrain served by the Village Chair and the 46er Chair, night skiing under lights, a terrain park, and a new base lodge called The Station with a restaurant, a retail shop, day lockers and grab-and-go food. The Hudson Chair connects the Ski Bowl to Burnt Ridge and the rest of Gore, so you can start here and ski the whole mountain.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "evening",
+      "big group"
+     ],
+     "note": "This is the smarter base for a mixed-ability family: shorter drive, smaller parking lot, easier terrain, and the only place at Gore with night skiing. It runs on a partial-week schedule — local listings say Wednesday to Sunday during the ski season, plus holiday periods — rather than daily, so confirm the operating days before you plan an evening around it. It also closes for events and race days.",
+     "cost_band": "varies",
+     "needs_booking": "advisable — same ticket as Gore, buy online ahead",
+     "url": "https://goremountain.com/the-mountain/about-the-ski-bowl/",
+     "confidence": "certain"
+    },
+    {
+     "name": "Gore Mountain rentals and lessons",
+     "town": "North Creek",
+     "drive_minutes": 20,
+     "what": "Gore runs its own rental shop at the main base and a ski and snowboard school with group lessons split by age and ability, private lessons, and a first-timer package that bundles ticket, gear and instruction.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents"
+     ],
+     "note": "Reserve rental gear online ahead of your arrival day — it is cheaper than walking in and it takes the morning queue out of your day. Lessons in holiday weeks fill well in advance; book those weeks ahead, not the night before. Programme names and prices shift every season, so check the current rental and lesson pages before you plan a budget. If nobody in the group has skied before, ask about the first-timer package rather than buying ticket, rental and lesson separately.",
+     "cost_band": "over $50pp",
+     "needs_booking": "advisable — reserve rentals at least a day ahead; lessons two weeks ahead in holiday periods",
+     "url": "https://goremountain.com/",
+     "confidence": "certain"
+    },
+    {
+     "name": "Garnet Hill Outdoor Center",
+     "town": "North River",
+     "drive_minutes": 25,
+     "what": "An Adirondack nordic centre high above Thirteenth Lake, with about 55 km of trails groomed for classic and skate skiing plus dedicated snowshoe trails. There is a ski shop with ski and snowshoe rentals, lessons for adults and children, and a log lodge with the Log House Restaurant and Pub for lunch and after. A shuttle runs on winter weekends so you can ski down the long descents and ride back up.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "grandparents",
+      "young children",
+      "teenagers"
+     ],
+     "note": "Because it sits high, it holds snow when North Creek is bare — it is often skiable by Thanksgiving and stays good after Gore's lower trails go soft. Skullbuster is genuinely steep; do not put a nervous beginner on it. The last stretch of Garnet Hill Road is a steep unpaved climb, plowed but not a road for bald tyres. Call the shop for trail conditions in a thin snow year, and book a table at the Log House rather than turning up hungry — it is small.",
+     "cost_band": "$20-50pp",
+     "needs_booking": "no for trails, but call ahead for lessons and for conditions; book the restaurant",
+     "url": "https://www.garnet-hill.com/outdoor-center/winter-sports/skiing/",
+     "confidence": "certain"
+    },
+    {
+     "name": "Gore Nordic Center at the Ski Bowl",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Gore's own cross-country operation at the Ski Bowl: a small groomed trail network, unusual in having snowmaking and lights for evening skiing, plus racing loops. Use of the nordic terrain has historically been included with a Gore lift ticket or season pass, which makes it a cheap add-on if half the group is already alpine skiing.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "evening",
+      "teenagers",
+      "grandparents"
+     ],
+     "note": "Verify this one before you count on it. Gore's own Nordic Center page has been showing the centre as closed for the season, while regional pages still describe it as operating and included with a lift ticket. Phone Gore and ask whether the nordic trails are being groomed this winter before you drive over with skis. If they are not, Garnet Hill is the fallback and is the better trail system anyway.",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "url": "https://goremountain.com/the-mountain/nordic-center/",
+     "confidence": "check-before-publishing"
+    },
+    {
+     "name": "Beaver Brook Outfitters (winter location, Wevertown)",
+     "town": "Wevertown",
+     "drive_minutes": 5,
+     "what": "A local outfitter whose winter base is the old church building on Route 28 in Wevertown, minutes from the house. They rent skis, snowboards and snowshoes by the day, multi-day or season, and you can reserve online and collect the afternoon before you ski.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "big group"
+     ],
+     "note": "Collecting gear here the afternoon before saves you the mountain rental queue and the walk from an outer lot on a Saturday morning, which is the single best time saving available to a family of six. Their main business is summer whitewater rafting, so phone before driving down: confirm they are running the winter location this season and what hours it keeps.",
+     "cost_band": "$20-50pp",
+     "needs_booking": "advisable — reserve gear online or by phone and confirm pick-up hours",
+     "url": "https://www.beaverbrook.net/ski-snowboard-snowshoe/",
+     "confidence": "likely"
+    },
+    {
+     "name": "Cunningham's Ski Barn",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "A full-service ski shop on Main Street in North Creek doing ski, snowboard and snowshoe rentals, tuning and repairs. The in-village alternative to renting at Gore, and the place to get an edge or a binding sorted mid-trip.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "teenagers",
+      "grandparents"
+     ],
+     "note": "Listings show it closed Tuesdays and Wednesdays, which is exactly when a midweek family discovers a broken binding — plan repairs around the back half of the week, and call before driving over. Hours stretch in holiday weeks and shrink at the shoulders of the season.",
+     "cost_band": "$20-50pp",
+     "needs_booking": "no, but call ahead for a same-day tune",
+     "url": "https://www.cunninghamsskibarn.com/",
+     "confidence": "certain"
+    },
+    {
+     "name": "Ice rink and sledding hill, Ski Bowl Park",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "The Town of Johnsburg runs a covered ice rink in the pavilion at Ski Bowl Park, free to use and lit for evening skating, with donated hockey and figure skates kept there to borrow at no charge. There is a town sledding hill on the same site, opposite the start of the Schaefer Trail.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "evening",
+      "big group"
+     ],
+     "note": "The best free evening out in the area, and the obvious thing to do with the non-skiers while others take a night run. Loaner skates are donated stock, so sizes are pot luck — bring your own if anyone is particular, and bring your own sleds. Sources disagree on whether the rink is open daily or only on the Ski Bowl's operating days, and it is weather-dependent in a mild winter, so confirm it is open before you make it the evening plan.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "url": "https://visitnorthcreek.org/project/ski-bowl-park-winter/",
+     "confidence": "likely"
+    },
+    {
+     "name": "Backcountry skiing and snowshoeing, Siamese Ponds Wilderness",
+     "town": "Johnsburg / North River",
+     "drive_minutes": 25,
+     "what": "A wilderness area of over 100,000 acres starting just west and south of the house, with many miles of marked trail. Many routes follow old wagon roads, which makes them good cross-country and snowshoe terrain rather than technical skiing. The Botheration Pond loop from the Thirteenth Lake side is the classic local backcountry ski tour. The Schaefer Trail from the Ski Bowl is the other well-known route, climbing roughly 2,500 ft toward Gore's summit.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "teenagers"
+     ],
+     "note": "This is unmanaged wilderness: no patrol, no grooming, and effectively no cell signal once you leave the road. Do not send a beginner or a lone walker. The Botheration loop is a full day for a competent skier, not an afternoon stroll, and short winter daylight is the thing that catches people out. Trailhead parking on Route 8 and Thirteenth Lake Road is plowed but small and fills on bluebird weekends. Gore allows uphill skinning at the Ski Bowl on designated routes during posted hours only — check its uphill policy first, and never skin a closed trail.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "url": "https://visitnorthcreek.org/project/backcountry-skiing-snowshoe/",
+     "confidence": "certain"
+    },
+    {
+     "name": "Snowmobiling on the Warren County trail network",
+     "town": "Johnsburg / North Creek",
+     "drive_minutes": 10,
+     "what": "Warren County maintains roughly 300 miles of groomed, mapped and signed snowmobile trail, and Johnsburg and North Creek sit on it, with connections south toward Stony Creek and Thurman and west toward Indian Lake. The county publishes an online trail map and a phone app that shows your position on the trails.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "teenagers",
+      "big group"
+     ],
+     "note": "The hard part is getting machines. There is no reliable snowmobile rental in North Creek or Johnsburg; the nearest dependable operation is in Speculator, about 75 minutes away over Route 8 and a long tow back. Check rental availability before you assume this is possible at all. New York requires registration and, for most riders, club or state-association membership for trail access — sort that weeks ahead, not on arrival. Trails only open when the ground is frozen and the snow is deep; in early and late season they are simply shut.",
+     "cost_band": "varies",
+     "needs_booking": "essential — arrange rentals and registration several weeks ahead",
+     "url": "https://warren-county-gis-warrencountyny.hub.arcgis.com/datasets/warren-county-ny-snowmobile-trail-map",
+     "confidence": "likely"
+    },
+    {
+     "name": "Ice fishing on Schroon Lake",
+     "town": "Schroon Lake",
+     "drive_minutes": 30,
+     "what": "The most reliable hard-water fishing near the house: a big lake with good access, holding lake trout, landlocked salmon, northern pike, pickerel and panfish. Tip-ups and augers are the standard kit, and tip-ups and bait are sold at tackle shops in Chestertown and Schroon Lake. Local clubs run derbies most winters.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "teenagers",
+      "grandparents"
+     ],
+     "note": "Anyone 16 or over needs a New York freshwater fishing licence — buy it online before you leave home rather than hunting for a vendor on the day. Ice thickness is not something to judge yourself: ask at a local bait shop the morning you go, and do not go out at all in a mild winter or at the edges of the season. There is no organised shanty or gear rental here, so either buy cheap tip-ups locally or hire a guide. Derby dates move year to year; confirm before you plan a trip around one.",
+     "cost_band": "varies",
+     "needs_booking": "advisable — book a guide two weeks ahead if you want one",
+     "confidence": "likely"
+    },
+    {
+     "name": "Snowshoe trails at Natural Stone Bridge and Caves",
+     "town": "Pottersville",
+     "drive_minutes": 25,
+     "what": "A privately owned cave park with the largest marble cave entrance in the eastern United States, open in winter for self-guided snowshoeing on over 14 miles of trails past the stone bridge, frozen waterfalls and ice formations. Snowshoes can be rented on site.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "big group"
+     ],
+     "note": "The best answer for the person in the house who does not ski. Winter operation is Friday to Sunday, roughly 10am to 4pm, from about mid-December to mid-March — it is shut on weekdays, which catches out families here on a Monday-to-Friday week. Snowshoes are required and you will not be let on the trails without them, so rent there if you do not own any. No snow means no winter season at all, so call ahead in a lean year.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no, but call ahead to confirm they are open that weekend",
+     "url": "https://stonebridgeandcaves.com/tour/snowshoe-trails/",
+     "confidence": "certain"
+    },
+    {
+     "name": "Lake George Winter Carnival",
+     "town": "Lake George village",
+     "drive_minutes": 40,
+     "what": "A free town carnival on weekends through February and into early March, staged in and around Lake George village and on the frozen lake. Content varies by weekend and by ice conditions but typically includes polar plunges, outhouse races, chili and cook-off events, live music and fireworks.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "big group"
+     ],
+     "note": "The forty-minute drive is the price of a day with no lift tickets. What actually happens depends on ice thickness — in a warm winter the on-ice events, including anything involving vehicles, are cancelled at short notice, so check the carnival's own schedule the week you go rather than working from a programme published in the autumn. Village parking is limited and the free lots fill by late morning on carnival Saturdays. Dress for standing still on a lake in the wind; children get cold here faster than they do skiing.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "url": "https://lakegeorgewintercarnival.com/",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "category": "Lakes, rivers and swimming",
+   "intro": "Water is the main reason to be here in summer, and the choices run from a quiet private lake at the end of the road to a 16-mile whitewater run through the Hudson Gorge. Almost all of it is seasonal, and most beaches here close outright on any day no lifeguard is available, so check hours the week you arrive rather than trusting anything printed in advance.",
+   "items": [
+    {
+     "name": "Antler Lake (the house's lake rights)",
+     "town": "Wevertown",
+     "drive_minutes": 0,
+     "what": "A small private non-motorized lake with a shared sand beach and dock area maintained by the Antler Lake Association, reached by deeded right-of-way rather than a public park. Canoes, kayaks, paddleboards and swimming only — no ski boats, no jet skis.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "no car needed",
+      "big group"
+     ],
+     "note": "\"Lake rights\" is a deed term, not a guarantee of what a renter may do, and the beach is association-run with its own rules. Before you arrive, ask the owner three things: exactly which access point you may use and how you reach it, whether boats are provided or you bring your own, and whether guests beyond the house party are allowed. No lifeguards, no bathrooms and no staff — if small children are swimming, an adult is the lifeguard. Cell signal at the lake is poor to nonexistent.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "check-before-publishing"
+    },
+    {
+     "name": "The Black Hole and Dunkley Falls, Mill Creek Recreation Area",
+     "town": "Wevertown (Town of Johnsburg)",
+     "drive_minutes": 5,
+     "what": "A deep pool on Mill Creek below a small cascade, inside a 224-acre town-owned open space on Harrington Road between Wevertown and Riparius. Rock ledges up to about twenty feet ring the pool and people jump from them. Shallow wading at the edges.",
+     "seasons": [
+      "summer"
+     ],
+     "good_for": [
+      "teenagers",
+      "big group"
+     ],
+     "note": "This is the honest one. Teenagers will find it with or without you, so know the risks: no lifeguard, no posted depths, submerged rock, and water level that swings hard after rain. Depth at any given ledge is not constant year to year — people who jump safely wade the landing zone first and never jump into water they have not checked that day. Cold water, slick rock on the climb out, and no cell signal to call an ambulance. Day use only, no facilities, park considerately on Harrington Road. Avoid entirely in high water after storms.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "url": "https://johnsburgny.gov/building-parks/",
+     "confidence": "certain"
+    },
+    {
+     "name": "Dr. Jacques Grunblatt Memorial Beach",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "The town swimming beach on Ski Bowl Road at the North Creek Ski Bowl — a small spring-fed pond with a sand beach. The closest conventional beach to the house.",
+     "seasons": [
+      "summer"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "big group"
+     ],
+     "note": "A children's swim program uses the beach on several weekdays in the early afternoon and the public is shut out during the instruction block, so mornings and late afternoons are the safe bet. Lifeguard coverage is occasional rather than guaranteed and the beach closes when no guard is on duty. Call the Town of Johnsburg recreation office the morning you plan to go — the town parks page does not list this beach or its hours, so a phone call is the only reliable check before driving over with a carful of children.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "check-before-publishing"
+    },
+    {
+     "name": "Hudson River Gorge whitewater rafting",
+     "town": "North Creek / North River / Indian Lake",
+     "drive_minutes": 15,
+     "what": "A full-day guided run of roughly 16 miles, starting with a few miles of Class II-III on the Indian River and continuing through the Hudson Gorge at Class III-IV. It is the regional draw and the reason many people come to North Creek at all. Outfitters running it include Beaver Brook Outfitters, North Creek Rafting Company, Square Eddy Expeditions, ARO Adventures, Whitewater Challengers and Hudson Rafting Company.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers",
+      "big group"
+     ],
+     "note": "Through the warm months the river runs only when the Lake Abanakee dam releases — historically Tuesday, Thursday, Saturday and Sunday, mid-morning — so the schedule dictates your week, not the other way round. Season runs roughly April to Columbus Day weekend; spring is cold, high and pushy, midsummer warmer and gentler. Minimum age is the thing to ask about: commonly 14 or 16 in spring, dropping to around 8 in summer, and it varies by outfitter. Allow a whole day — meet time, bus shuttle, river, lunch, bus back. Book a week or two ahead for weekend dates. Wetsuit rental is usually extra and worth it before July. Meeting points are spread from North Creek to Indian Lake, so confirm where you are actually driving to — an Indian Lake meet is closer to 30 minutes, not 15. Confirm the current release days and minimum age with the outfitter, not with a guidebook.",
+     "cost_band": "over $50pp",
+     "needs_booking": "essential, one to two weeks ahead for weekend dates",
+     "url": "https://visitnorthcreek.org/project/whitewater-rafting-outfitter-directory/",
+     "confidence": "certain"
+    },
+    {
+     "name": "Calm-water tubing and float trips on the Hudson",
+     "town": "North Creek / North River",
+     "drive_minutes": 15,
+     "what": "Guided tube and easy-raft trips on the calmer Hudson away from the Gorge — a couple of hours, mild riffles and long lazy stretches. Beaver Brook Outfitters is the nearest operator. The right answer for a family that wants the river without the Gorge.",
+     "seasons": [
+      "summer"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "big group"
+     ],
+     "note": "Confirm this specific trip is running the week you want it — calm-water float and tube trips come and go from outfitter line-ups year to year, and a dry August drops the water until the trip turns into walking. Minimum ages are much lower than the Gorge but still exist, so ask when booking. Everyone gets wet and cold-ish; bring towels and dry clothes for the car. River shoes or old sneakers, not flip-flops, which the river will take.",
+     "cost_band": "$20-50pp",
+     "needs_booking": "advisable, a few days ahead",
+     "url": "https://www.beaverbrook.net/",
+     "confidence": "check-before-publishing"
+    },
+    {
+     "name": "Beaver Brook Outfitters (canoe, kayak and tube rental)",
+     "town": "North Creek",
+     "drive_minutes": 15,
+     "what": "The nearest full outfitter, on Route 28 a couple of miles north of North Creek. Rents canoes and kayaks by the day or for several days to take away with you, paddles and life jackets included, and runs guided paddles and rafting trips.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers",
+      "grandparents",
+      "big group"
+     ],
+     "note": "Renting here and carrying boats to Antler Lake or Thirteenth Lake is usually cheaper and more flexible than hourly rental elsewhere, and they will deliver to Thirteenth Lake — ask, because it saves you needing a roof rack. If you are carrying boats yourself you need a rack or a vehicle that takes a canoe; confirm what tie-downs they supply. Call ahead in July and August; a family of six turning up unannounced on a hot Saturday may find the fleet out. Hours are seasonal.",
+     "cost_band": "varies",
+     "needs_booking": "advisable in July and August",
+     "url": "https://www.beaverbrook.net/canoe-kayak-tube/canoe-kayak-rentals/",
+     "confidence": "certain"
+    },
+    {
+     "name": "Thirteenth Lake",
+     "town": "North River",
+     "drive_minutes": 30,
+     "what": "A two-mile wilderness lake inside the Siamese Ponds Wilderness, with a small sand beach at the north end, a canoe launch and a short accessible trail. Non-motorized, cold, clear and quiet — the best swim of its kind within half an hour of the house.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers",
+      "grandparents",
+      "big group"
+     ],
+     "note": "From Route 28 in North River take Thirteenth Lake Road about 3.5 miles, then right onto a dirt road to the parking area at the end of Beach Road. The last stretch is unpaved and slow — fine for a normal car in summer, not a place to be in winter. No lifeguard, no bathrooms beyond a privy, no cell signal, and the small lot fills on hot weekends, so go early. Garnet Hill Lodge nearby has boats but for lodge guests, so bring your own or rent in North Creek.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain"
+    },
+    {
+     "name": "Loon Lake Public Beach",
+     "town": "Chestertown",
+     "drive_minutes": 20,
+     "what": "A small town sand beach near the Route 8 and Route 9 junction, with marked shallow and deep zones, a swim raft and a small boat launch. Free.",
+     "seasons": [
+      "summer"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "big group"
+     ],
+     "note": "Open roughly June through Labor Day. It is a town beach, not a resort — small, with limited parking that goes early on hot afternoons. Lifeguard coverage is seasonal and not guaranteed every day, and the swimming area closes when no guard is on. Pair it with lunch in Chestertown so a shut beach does not waste the drive.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "url": "https://www.chesterwcny.gov/loon-lake-public-beach",
+     "confidence": "certain"
+    },
+    {
+     "name": "Brant Lake town beach",
+     "town": "Brant Lake (Town of Horicon)",
+     "drive_minutes": 25,
+     "what": "A free public swimming area at the southern tip of the lake, opposite the Horicon fire house, with about 200 feet of sand, a swim platform, a marked swimming area, restrooms and picnic tables. A separate hard-surface boat launch sits off Route 8 about a mile northeast of the hamlet, with parking for about eleven vehicles.",
+     "seasons": [
+      "summer"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents"
+     ],
+     "note": "There are no lifeguards here — everyone swims at their own risk, which matters if you are bringing small children used to a guarded beach. You cannot park along the beach itself; use the lot behind the Horicon Community Center and walk. It gets busy in August when the summer camps and seasonal houses are full, and the boat launch lot fills early on weekends.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain"
+    },
+    {
+     "name": "Schroon Lake Town Beach",
+     "town": "Schroon Lake",
+     "drive_minutes": 30,
+     "what": "A guarded village beach in the town park east of Main Street, with a roped swimming area keeping boats out, a floating dock in the deep section, restrooms, picnic tables and a playground. The best all-ages beach day within half an hour.",
+     "seasons": [
+      "summer"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "big group"
+     ],
+     "note": "Short season — roughly the last week of June to Labor Day, with afternoon hours in the middle of the day rather than dawn to dusk, so check before setting out. New York rules require lifeguards on duty, so if guards are unavailable the beach simply closes that day; there is no swim-at-your-own-risk option. Parking is on Dock Street and roadside on Leland Avenue and is tight in August. Combine with the shops and ice cream on Main Street so the trip is not wasted if the beach is shut.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "url": "https://townofschroonny.gov/parks-outdoor-facilities/",
+     "confidence": "certain"
+    },
+    {
+     "name": "Scaroon Manor Day Use Area",
+     "town": "Pottersville (Schroon Lake)",
+     "drive_minutes": 25,
+     "what": "A state-run day use area on about 1,200 feet of Schroon Lake shoreline, with a sandy swimming beach, bathhouse and accessible restrooms, picnic area and pavilion, a fishing and viewing platform, a hand boat launch with dock, a short shoreline trail and kayak rental. Larger and better equipped than the town beach, with room for a big group.",
+     "seasons": [
+      "summer"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "big group"
+     ],
+     "note": "The address is on Route 9 in Pottersville, south of Schroon Lake village — set that, not \"Schroon Lake\", in the satnav. There is a day use fee charged per vehicle rather than per head; bring cash in case the booth is not taking cards. The season runs roughly mid-May to just after Labor Day, so it is shut well before the leaves turn. Kayak rental is listed but availability varies through the season — do not build the day around it without calling. Check the DEC page for current dates and fee before driving over.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "url": "https://dec.ny.gov/places/scaroon-manor-campground-and-day-use-area",
+     "confidence": "certain"
+    },
+    {
+     "name": "Schroon River tubing at Warrensburg",
+     "town": "Warrensburg",
+     "drive_minutes": 25,
+     "what": "Lazy-river tubing on the Schroon, run out of riverside campgrounds on Route 9 — Warrensburg Travel Park and Schroon River Campsites both rent tubes and have river access. Two hours of drifting with almost no whitewater.",
+     "seasons": [
+      "summer"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "big group"
+     ],
+     "note": "These are campgrounds first and rental operations second, so hours are informal and non-campers should call before turning up with eight people — some seasons they serve campers only. Rental is cheap, a few dollars a tube for a couple of hours. Needs a hot day and adequate water; in a dry spell the river gets bony and scrapey. Water shoes, and a waterproof pouch or leave the phone in the car — every year someone donates theirs to the Schroon.",
+     "cost_band": "under $20pp",
+     "needs_booking": "advisable, call the same week",
+     "url": "https://www.warrensburgtravelpark.com/kayak-canoe-row-boat-tube-rentals-campground/",
+     "confidence": "certain"
+    },
+    {
+     "name": "Million Dollar Beach, Lake George",
+     "town": "Lake George village",
+     "drive_minutes": 40,
+     "what": "The big state-run public beach at the southern end of Lake George — lifeguards, showers, changing rooms, picnic areas with grills, volleyball, and a boat launch and inspection station alongside. The busy, commercial end of the region, with the village arcade strip a short walk away.",
+     "seasons": [
+      "summer"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "big group"
+     ],
+     "note": "Season runs roughly late May to the first week of September, with daytime hours only — it is not an evening swim. Parking is paid per car and the lot fills by late morning on hot weekends, so arrive early or plan on parking in the village and walking. Swimming is not allowed when no lifeguard is on duty. It is the least Adirondack thing on this list; go for the beach-plus-village day, not for quiet.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "url": "https://dec.ny.gov/places/lake-george-beach-day-use-area",
+     "confidence": "certain"
+    },
+    {
+     "name": "Hudson River hand launch at the Riparius bridge",
+     "town": "Riparius",
+     "drive_minutes": 10,
+     "what": "A hand launch on the Hudson at the Route 8 bridge, on the way toward Chestertown. A put-in for flatwater paddling on the calm river well below the Gorge, and a place to swim off the bank.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers",
+      "grandparents"
+     ],
+     "note": "Hand carry only — no trailer ramp, so a canoe has to be lifted down. The Hudson here is a real river with current, cold water and nobody supervising; it is not a beach and not somewhere to leave small children swimming alone. Water level matters, and after heavy rain the current is far stronger than it looks from the bridge. Check the USGS river gauge at North Creek if you are unsure. Paddling downstream means leaving a second car at the take-out.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "likely"
+    },
+    {
+     "name": "Indian Lake town beach on Lake Abanakee",
+     "town": "Indian Lake",
+     "drive_minutes": 30,
+     "what": "A quiet town beach on Lake Abanakee about 1.5 miles outside the hamlet on Chain Lakes Road, with lifeguards, a floating swim dock, changing rooms, restrooms, a covered pavilion, swings and a volleyball court. Free.",
+     "seasons": [
+      "summer"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "big group"
+     ],
+     "note": "Worth knowing: there is no public beach on Indian Lake itself, only on Abanakee, so do not drive to the wrong shore. Swimming is only permitted while a lifeguard is present, hours are the middle of the day and the season is short — call the town before making the drive. This is the lake whose dam feeds the Gorge rafting releases, so level and flow change through the day. Combine with a drive on to Blue Mountain Lake and the Adirondack Experience museum if the weather turns.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "likely"
+    }
+   ]
+  },
+  {
+   "category": "Hiking and walking",
+   "intro": "The house sits on the eastern edge of the Siamese Ponds Wilderness, and nearly everything below is free state land with no booking and no staff, from a flat accessible mile under 300-year-old pines to a 2,500-foot climb up Gore. Carry a paper map, tell someone your plan, assume your phone stops working the moment you turn off Route 28, and ignore Chimney Mountain if a hiking app suggests it — the landowner closed the only access to that trailhead in 2023 and DEC says there is no public right of way.",
+   "items": [
+    {
+     "name": "Grandmother Tree Trail, Pack Demonstration Forest",
+     "town": "Warrensburg",
+     "drive_minutes": 30,
+     "what": "A flat, roughly one-mile nature trail through old-growth white pine and hemlock, built to be wheelchair-accessible. The Grandmother Tree is a white pine around 175 feet tall and over 300 years old. Owned by SUNY ESF and open to the public.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "grandparents",
+      "young children",
+      "big group"
+     ],
+     "note": "The one walk here that genuinely works for someone with a walker or a wheelchair, and the only one where nobody gets left in the car. The surface is packed and level but not paved, so it is soft after rain. No picnicking and no camping are allowed on the property, so bring food to eat elsewhere. DEC runs a youth camp on part of the forest and some gates and buildings are off-limits; stay on the marked trails. The wider forest has longer level walking around the lake if you want more.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://www.warrensburgheritagetrail.org/pack-forest.html"
+    },
+    {
+     "name": "Hooper Mine",
+     "town": "North River",
+     "drive_minutes": 25,
+     "what": "A short, steady walk to an abandoned open-pit garnet mine that closed in 1928. You come out into a red-rock bowl with pines growing in it. About three-quarters of a mile round trip and roughly 160 feet of climbing, half an hour of walking.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "big group"
+     ],
+     "note": "The best twenty minutes of walking in the area for children, because there is something to look at when you get there. The catch is access: the trail starts by the tennis courts on Garnet Hill Lodge property, so drive in, check in at the lodge reception, and park where they tell you. The last stretch of Thirteenth Lake Road is dirt. There is loose rock in the pit, so keep small children off the steep faces.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "likely",
+     "url": "https://www.garnet-hill.com/things-to-do/local-hikes-near-garnet-hill/"
+    },
+    {
+     "name": "North Creek Ski Bowl Park and the riverfront",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "A 204-acre town park at the old Ski Bowl with around 20km of easy multi-use trails, plus a short riverfront path along the Hudson in the hamlet. Flat to gently rolling, wide, well-signed.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "teenagers",
+      "evening",
+      "big group"
+     ],
+     "note": "The default when the weather is poor, someone is tired, or you only have an hour before dinner, and the one walk you can do in ordinary shoes. Trails are shared with mountain bikers in summer, so listen behind you. In winter much of the network is groomed for cross-country skiing and lit for night skiing; walking on a groomed track is bad form, so snowshoe beside it. Main Street food and coffee is a two-minute drive away.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://friendsjohnsburgparks.org/project/ski-bowl-trails-summer/"
+    },
+    {
+     "name": "Hackensack Mountain",
+     "town": "Warrensburg",
+     "drive_minutes": 25,
+     "what": "About 1.2 miles to the summit, or a 2.7-mile loop, with roughly 500 feet of climbing and a view over Warrensburg and the Hudson and Schroon rivers. Under two hours at a child's pace.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers"
+     ],
+     "note": "A real summit with a real view that a six-year-old can manage. It is low enough to be dry and snow-free weeks before anything near Thirteenth Lake, so it is the right answer in April and early May when the higher trails are mud. There are two trailheads on residential streets in the village and neither has a large lot, so arrive with a fallback plan and do not block driveways. Combine it with lunch in Warrensburg.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://www.protectadks.org/hike-hackensack-mountain/"
+    },
+    {
+     "name": "Balm of Gilead Mountain",
+     "town": "North River",
+     "drive_minutes": 30,
+     "what": "Around 2.8 miles round trip, mostly flat through hardwoods with a final climb of just over 400 feet to an open rock ledge looking over Thirteenth Lake. Two to two and a half hours.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "big group"
+     ],
+     "note": "The best view for the effort within half an hour of the house, and the one to pick when the group's abilities are mixed. Access is Thirteenth Lake Road then Old Farm Clearing Road, a seasonal dirt road that is not plowed or maintained in winter and is rough in spring. The parking circle at the end is the hub for several trails and fills on summer and foliage weekends, so arrive before 9. No cell signal at the trailhead.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://www.protectadks.org/balm-of-gilead-mountain-is-a-wonderful-short-hike-in-the-central-adirondacks-near-thirteenth-lake-outside-of-north-creek/"
+    },
+    {
+     "name": "Old Farm Clearing and the Botheration Pond trails",
+     "town": "North River",
+     "drive_minutes": 30,
+     "what": "A network of old logging roads and gentle woods trails in the Siamese Ponds Wilderness, running from the Old Farm Clearing parking area past brooks, ponds and designated tent sites. As short or as long as you like.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "big group"
+     ],
+     "note": "Flat wilderness walking without a climb, which is unusual here. Read this first: DEC has a bridge on the Botheration Pond Trail roped off, so the 7-mile Botheration loop cannot be completed. Check the DEC page on the morning you go and plan an out-and-back instead of a loop. In winter this is a cross-country ski and snowshoe favourite, but Old Farm Clearing Road is seasonal and unplowed, which adds distance on foot before you start. No cell signal beyond the parking area.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "check-before-publishing",
+     "url": "https://dec.ny.gov/places/siamese-ponds-wilderness"
+    },
+    {
+     "name": "Moxham Mountain",
+     "town": "Minerva",
+     "drive_minutes": 35,
+     "what": "About 5.3 miles round trip, roughly 1,150 to 1,350 feet of climbing to a 2,418-foot summit, with a dozen open overlooks along a cliff-edge ridge on the way up. Three to four hours.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers",
+      "big group"
+     ],
+     "note": "The best half-day family hike in range: the gradient is mild for an Adirondack peak and the views start long before the top, which keeps children moving. The flip side is exposed cliff edges for much of the ridge, so hold onto small children and keep dogs leashed. The trailhead is a small pull-off on 14th Road off Route 28N, about 0.2 miles after the pavement ends, and it fills on fall weekends. The bare rock is genuinely slick when wet.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://dec.ny.gov/places/vanderwhacker-mountain-wild-forest"
+    },
+    {
+     "name": "Peaked Mountain from Thirteenth Lake",
+     "town": "North River",
+     "drive_minutes": 30,
+     "what": "Roughly 7 miles round trip, about 1,270 feet of climbing to a 2,919-foot summit. The trail runs nearly a mile along the north shore of Thirteenth Lake, past Peaked Mountain Pond, then climbs 670 feet in the last 0.4 mile. Four to five hours.",
+     "seasons": [
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers"
+     ],
+     "note": "Beautiful and tiring in equal measure; the final section is steep and rooty, not a stroll. Start from the Thirteenth Lake trailhead off Beach Road, not Old Farm Clearing. That lot is also the swimming and paddling access, so it fills by mid-morning all summer, there is no overflow, and parking on the road verge gets you ticketed. Black flies are serious here from late May into June. No cell signal.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://www.protectadks.org/hike-peaked-mountain/"
+    },
+    {
+     "name": "OK Slip Falls",
+     "town": "Indian Lake",
+     "drive_minutes": 25,
+     "what": "About 6 miles round trip with roughly 800 feet of climbing, ending at a fenced overlook across from one of the highest waterfalls in the Adirondacks. Around four hours.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers",
+      "big group"
+     ],
+     "note": "Read this before you go: you park on the SOUTH side of Route 28 and the trail starts on the NORTH side about 0.2 miles west of the lot, so you walk the shoulder of a fast road to reach it. Half a mile in, take the marked right turn for the falls. The informal scramble down into the gorge is closed and people have been hurt on it; the overlook is the destination. The falls are far better in spring and after heavy rain than in an August dry spell. No cell signal.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://www.protectadks.org/ok-slip-falls/"
+    },
+    {
+     "name": "Crane Mountain",
+     "town": "Johnsburg",
+     "drive_minutes": 25,
+     "what": "A peak of about 3,250 feet. The direct route is under 3 miles round trip and includes a bolted wooden ladder 30 feet or more high; the loop past Crane Mountain Pond is around 4 miles. Views in all directions and a swimmable pond below the summit. Four to five hours.",
+     "seasons": [
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers"
+     ],
+     "note": "Short on paper, hard in practice — this is the steepest hike close to the house and it catches people who read the mileage and not the profile. If ladders are a problem, the longer route past the pond reaches the summit without them; most dogs cannot do the ladders at all. Access is Garnet Lake Road from Route 8, which turns to dirt, then Ski Hi Road; the lot is small and overflows on summer weekends and every foliage Saturday. Not a wet-weather hike: the steep slabs are treacherous. No cell signal at the trailhead.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://www.protectadks.org/hike-crane-mountain/"
+    },
+    {
+     "name": "Vanderwhacker Mountain fire tower",
+     "town": "Minerva",
+     "drive_minutes": 55,
+     "what": "Around 5 miles round trip and 1,650 feet of climbing to a 3,386-foot summit with a restored fire tower and a view of the High Peaks. Three and a half to four and a half hours.",
+     "seasons": [
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers"
+     ],
+     "note": "The parking problem is the whole story: the trailhead lot is tiny. If it is full you park back at the Route 28N pull-off near the Boreas River bridge, which adds several miles on foot and turns this into a long day. The 2.6-mile access road is rocky and rutted — fine slowly in a high-clearance vehicle in dry weather, unpleasant after rain, and not an option in winter. The Moose Pond Club Road bridge on that access road was rebuilt and reopened in 2024, so the road itself is open. Budget the full drive; it is further than it looks on a map. No cell signal from the turn-off onwards.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://dec.ny.gov/places/vanderwhacker-mountain-wild-forest"
+    },
+    {
+     "name": "Hadley Mountain fire tower",
+     "town": "Hadley",
+     "drive_minutes": 60,
+     "what": "About 3.2 miles round trip and roughly 1,500 feet of climbing to an open summit and a restored 1917 fire tower you can climb for a view in all directions, including Great Sacandaga Lake. Three hours or so.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers",
+      "big group"
+     ],
+     "note": "The furthest drive on this list and the one climbable tower most older children will manage — a steady trail with no scrambling. Fit eight- and ten-year-olds do it; smaller legs will find 1,500 feet a lot. It is popular and the lot fills on good-weather weekends. Being lower and further south it dries out earlier in spring than anything near Thirteenth Lake. Make it the day's outing rather than a morning: the drive is via Warrensburg and Stony Creek on slow roads.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain"
+    },
+    {
+     "name": "Siamese Ponds via the Eleventh Mountain trailhead",
+     "town": "Bakers Mills",
+     "drive_minutes": 25,
+     "what": "The classic Siamese Ponds walk-in: close to six miles each way from Route 8, over a shoulder of Eleventh Mountain, down to the East Branch of the Sacandaga and on to the ponds. A full day, 7 to 9 hours.",
+     "seasons": [
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers"
+     ],
+     "note": "The serious one — remote and committing. The real climbing is in the first mile, which means it is also the last mile home when you are tired. DEC warns that the East Branch of the Sacandaga must not be crossed in high water, and people turn back there in spring and after heavy rain. The trailhead is on Route 8 about 3.7 miles past Bakers Mills. Start at first light and carry a map and headlamps. No cell signal for the entire route, and none on Route 8 west of Wevertown either; the DEC Forest Ranger emergency line is 1-833-697-7264, but you will have to walk out to use it.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://dec.ny.gov/places/siamese-ponds-wilderness"
+    },
+    {
+     "name": "Snowy Mountain",
+     "town": "Indian Lake",
+     "drive_minutes": 45,
+     "what": "About 7.8 miles round trip with over 2,000 feet of climbing to a 3,899-foot summit and a restored fire tower. Six to seven hours.",
+     "seasons": [
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers"
+     ],
+     "note": "The hardest hike in reach and the best summit. The first two and a half miles are easy enough to lull you; the last mile is steep, rocky and relentless. Parking is a roadside pull-off on the east side of Route 30 about seven miles south of Indian Lake, and it fills early on summer weekends. Above 2,500 feet this holds snow and ice into May and gets it back in October, so microspikes are not optional in shoulder season. DEC asks hikers to stay off trails above 2,500 feet during spring mud season, which can run into June.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://www.protectadks.org/hike-snowy-mountain/"
+    },
+    {
+     "name": "Gore Mountain via the Schaefer Trail",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "About 9.4 miles round trip and roughly 2,500 feet of climbing from the North Creek Ski Bowl to the summit of Gore. Six to seven hours.",
+     "seasons": [
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers"
+     ],
+     "note": "The big climb you can start ten minutes from the house, with no dirt-road approach and parking that does not fill. The trailhead is on Dump Road at the east side of the Ski Bowl. It is a working ski area up top, so the last mile follows a service road past lifts and buildings and the summit is not wilderness. Do not plan on riding a lift down — the scenic chair does not serve this summit and stops in the afternoon — so allow for walking both ways. Signal comes and goes; do not count on it.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://www.protectadks.org/hike-gore-mountain/"
+    },
+    {
+     "name": "Gore Mountain scenic skyride",
+     "town": "North Creek",
+     "drive_minutes": 20,
+     "what": "A lift ride up Gore with short easy walking and a view at the top. The alternative to a climb for anyone who cannot manage a trail.",
+     "seasons": [
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "grandparents",
+      "young children",
+      "big group"
+     ],
+     "note": "Check the operating calendar before you drive over, because the schedule changes every year and the season is short. In recent summers rides have run on the Hudson chair five days a week from early July to the first week of September, with gondola rides limited to specific dates, mostly fall foliage weekends. Prices have been around $20 for an adult and about half that for children and seniors; confirm on the day. Rides stop for wind and thunderstorms with no notice, and ticket sales close well before the lift does. Early October foliage weekends are the best ride and the busiest.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "confidence": "check-before-publishing",
+     "url": "https://goremountain.com/todo/scenic-skyrides/"
+    }
+   ]
+  },
+  {
+   "category": "Rainy days and indoor things",
+   "intro": "Wevertown has nothing indoors, so every wet-day plan starts with a car and a decision about direction: North Creek is ten minutes and good for a short fix, while Lake George, Queensbury and Glens Falls are forty to fifty minutes and hold the places that can absorb twelve people for a whole afternoon. Adirondack opening hours change constantly and a lot of what reads as indoor is an outdoor site with a roof over one part of it, so phone the morning you plan to go rather than trusting a website.",
+   "items": [
+    {
+     "name": "Lake George Lanes & Games",
+     "town": "Lake George",
+     "drive_minutes": 40,
+     "what": "Bowling alley on Canada Street with laser tag, a redemption arcade, golf simulators, a multi-level indoor playground for small children, and a snack bar. Built to hold a large mixed-age group for an afternoon.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "rainy day",
+      "evening",
+      "big group"
+     ],
+     "cost_band": "under $20pp",
+     "needs_booking": "advisable — call for lanes the morning of a wet day, and a few days ahead in July, August or a holiday week",
+     "note": "This is the best single answer for twelve people in the rain, and every other family in Warren County knows it, so lanes go the moment the weather turns. Laser tag runs up to twenty players at a time, which covers a house of twelve in one game. Bowling, laser tag, simulators and the arcade are each charged separately, so a full afternoon adds up well past the bowling price — check the current rates on their pricing page before you commit. Galactic bowling runs Friday and Saturday nights and suits teenagers better than a daytime visit.",
+     "confidence": "certain",
+     "url": "https://www.lakegeorgelanesandgames.com/"
+    },
+    {
+     "name": "Adirondack Experience (ADKX)",
+     "town": "Blue Mountain Lake",
+     "drive_minutes": 45,
+     "what": "The big regional museum of Adirondack life — boats, logging, a rail car, and substantial hands-on exhibits for children — spread over a large hillside campus above Blue Mountain Lake.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "rainy day",
+      "big group"
+     ],
+     "cost_band": "$20-50pp",
+     "needs_booking": "no, but tickets are cheaper bought online than at the desk",
+     "note": "Two catches. The season runs late May to mid-October only, so it is no help on a winter or early-spring wet day. And the campus is outdoors between buildings — the main exhibition hall is genuinely large and dry, but steady rain means repeated wet walks, so bring real coats rather than treating it as a dry day out. Allow three hours minimum, four for a keen family. The drive is slow two-lane road through Indian Lake, so budget the full forty-five minutes each way.",
+     "confidence": "certain",
+     "url": "https://www.theadkx.org/"
+    },
+    {
+     "name": "Great Escape Lodge indoor waterpark",
+     "town": "Queensbury",
+     "drive_minutes": 45,
+     "what": "A large indoor waterpark kept warm year-round, attached to a hotel just off Route 9. Slides, a wave pool, a toddler area and a bar. Open whatever the weather.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "rainy day",
+      "big group"
+     ],
+     "cost_band": "over $50pp",
+     "needs_booking": "essential — buy day passes online in advance, several days out",
+     "note": "Day passes for non-hotel guests are limited, sell out, and in the busiest weeks are sometimes not sold at all so that hotel guests get the space. Never drive forty-five minutes on spec. It is by a wide margin the most expensive thing on this list for a party of twelve. Six Flags sold the adjacent park to EPR Properties in 2026, with Enchanted Parks taking over operations and the Six Flags name coming off for the 2027 season, so the website address, signage and day-pass route may change — find the current booking page before you plan around it.",
+     "confidence": "likely",
+     "url": "https://www.sixflagsgreatescapelodge.com/"
+    },
+    {
+     "name": "Barkeater Chocolates",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Small chocolate factory and shop on Route 28 making bars, barks, truffles and caramels. They also run bookable chocolate-making sessions where you make your own, plus a haunted-factory session that ends with a hands-on chocolate activity.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "rainy day",
+      "big group"
+     ],
+     "cost_band": "varies",
+     "needs_booking": "essential for any of the experiences — book online well ahead, especially for a group of twelve; no booking needed to visit the shop",
+     "note": "The shop alone is a fifteen-minute stop. The booked chocolate-making session is the real wet-day play: indoors, an hour or more of occupied children and teenagers, and ten minutes from the house instead of fifty. Sessions are small, so do not assume twelve fit in one — ask when you book, and book before your trip rather than on the rainy morning. Shop hours are daily but have shifted between seasons; check the site the day you go.",
+     "confidence": "certain",
+     "url": "https://barkeaterchocolates.com/"
+    },
+    {
+     "name": "Regal Aviation Mall cinema",
+     "town": "Queensbury",
+     "drive_minutes": 50,
+     "what": "Seven-screen cinema with reserved seating on Aviation Road, attached to Aviation Mall. The only first-run cinema within reach of the house.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "teenagers",
+      "grandparents",
+      "rainy day",
+      "evening",
+      "big group"
+     ],
+     "cost_band": "under $20pp",
+     "needs_booking": "advisable — reserve seats online so twelve people sit together",
+     "note": "There is no cinema in North Creek, Chestertown or Warrensburg, so this is fifty minutes each way for a two-hour film. Fine as an evening plan, a poor use of a rainy afternoon unless you pair it with something else in Queensbury. Seats are reserved, and on a wet holiday weekend a block of twelve together will not exist if you turn up at the door. Check showtimes the same day.",
+     "confidence": "certain",
+     "url": "https://www.regmovies.com/theatres/regal-aviation-mall-1731"
+    },
+    {
+     "name": "Rocksport Indoor Climbing",
+     "town": "Queensbury",
+     "drive_minutes": 50,
+     "what": "Indoor climbing gym on Carey Road with 50-foot walls, roped routes and a bouldering area, plus an outdoor guiding service. One of the oldest commercial climbing gyms in the country.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "teenagers",
+      "rainy day",
+      "evening",
+      "big group"
+     ],
+     "cost_band": "$20-50pp",
+     "needs_booking": "essential for a group — call ahead, do not arrive with twelve people unannounced",
+     "note": "Weekdays it does not open until late afternoon and runs into the evening, so a wet Tuesday morning is no good; weekends open in the morning. Confirm the day's hours before you drive. Everyone climbing signs a waiver and an adult has to sign for anyone under 18 — do the paperwork before you leave the house. Complete beginners need an instructed session rather than a drop-in pass, which costs more and has to be arranged in advance. Good for teenagers and fit adults; not a plan for grandparents or under-sixes.",
+     "confidence": "certain",
+     "url": "https://www.rocksportny.com/"
+    },
+    {
+     "name": "The Hyde Collection",
+     "town": "Glens Falls",
+     "drive_minutes": 50,
+     "what": "A serious small art museum — Rembrandt, Rubens, Degas, Picasso — in and around a 1912 house on Warren Street, with a modern wing for changing exhibitions. Street parking outside.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "teenagers",
+      "grandparents",
+      "rainy day"
+     ],
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "note": "Closed Mondays all year, and through the summer it also closes Tuesdays — check the day before you drive fifty minutes. Admission is around $12, less for seniors, and free for children and students, so a family visit costs less than the band suggests; it is free to everyone on the second Thursday of the month. This is a ninety-minute visit, not an afternoon, and it will not hold bored small children — take the teenagers and grandparents and send the under-tens to the children's museum a few doors down the same street.",
+     "confidence": "certain",
+     "url": "https://www.hydecollection.org/"
+    },
+    {
+     "name": "World Awareness Children's Museum",
+     "town": "Glens Falls",
+     "drive_minutes": 50,
+     "what": "Small hands-on children's museum built around world cultures — dress-up, artefacts, craft activities and play areas. On Warren Street, a short walk from the Hyde.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "rainy day"
+     ],
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "note": "Aimed at roughly ages 2 to 9; teenagers will be done in ten minutes. It is genuinely small — budget an hour, ninety minutes at most — so treat it as one half of a Glens Falls day rather than the whole plan. It is closed two days midweek and closes mid-afternoon, around 3pm, which catches people out who plan to arrive after lunch. Hours differ in summer. Ring the same morning.",
+     "confidence": "certain",
+     "url": "https://worldchildrensmuseum.org/"
+    },
+    {
+     "name": "Adirondack Thunder ice hockey",
+     "town": "Glens Falls",
+     "drive_minutes": 50,
+     "what": "Professional ECHL hockey in a downtown arena seating about 4,800. Fast, loud, cheap and completely weatherproof — a good answer to a wet or freezing winter evening.",
+     "seasons": [
+      "winter",
+      "fall",
+      "spring"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "rainy day",
+      "evening",
+      "big group"
+     ],
+     "cost_band": "under $20pp",
+     "needs_booking": "advisable — buy online in advance; ask about group rates when you book for twelve",
+     "note": "The season runs roughly mid-October to mid-April, so this is useless in summer. The building was renamed Harding Mazzotti Arena in 2025 and older maps, signs and articles still say Cool Insuring Arena or Glens Falls Civic Center — same place, downtown Glens Falls. The drive home up the Warrensburg road after a night game is dark, unlit and slow in winter; allow more than the fifty minutes it took to get there.",
+     "confidence": "certain",
+     "url": "https://echlthunder.com/"
+    },
+    {
+     "name": "Paradox Brewery",
+     "town": "North Hudson",
+     "drive_minutes": 45,
+     "what": "Large purpose-built brewery on Route 9 north of Schroon Lake, with an indoor taproom, a food menu and non-alcoholic options. Children and dogs are welcome.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "teenagers",
+      "grandparents",
+      "rainy day",
+      "evening",
+      "big group"
+     ],
+     "cost_band": "$20-50pp",
+     "needs_booking": "no, but call ahead if you are arriving as a party of twelve",
+     "note": "Closed Mondays and Tuesdays — the most common wasted trip in this list. The kitchen stops serving about an hour before the taproom closes, so an early dinner is safer than a late one. Much of the appeal is the outdoor deck, so on a truly wet day you are relying on the indoor room; it is big, but check they are seating inside before committing to a ninety-minute round trip. Best as a late-afternoon stop paired with Schroon Lake rather than a destination on its own.",
+     "confidence": "certain",
+     "url": "https://paradoxbrewery.com/"
+    },
+    {
+     "name": "Natural Stone Bridge and Caves",
+     "town": "Pottersville",
+     "drive_minutes": 25,
+     "what": "A marble cave system with the largest cave entrance in the eastern United States, plus self-guided gorge trails, a climbing wall, disc golf, gemstone mining and a dinosaur dig for children. Guided crawl-through caving tours run in midsummer.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "big group"
+     ],
+     "cost_band": "$20-50pp",
+     "needs_booking": "advisable for the guided caving tours; not needed for the self-guided trail",
+     "note": "Read the name carefully — most of the standard visit is outdoors on a gorge trail, so in heavy rain this is a wet-boots day, not a dry one. It works if the rain is light and you need everyone out of the house. The season runs late May to mid-October and it is shut the rest of the year; some winters they have opened weekends for snowshoeing, but do not drive out in February without ringing first. The guided crawls are summer-only and not for anyone with claustrophobia or bad knees.",
+     "confidence": "certain",
+     "url": "https://stonebridgeandcaves.com/"
+    },
+    {
+     "name": "Garnet Mine Tours (Barton Mines)",
+     "town": "North River",
+     "drive_minutes": 25,
+     "what": "Guided tour of the old Barton garnet mine on Gore Mountain. You start at the gem and mineral shop, follow the guide up the mountain in your own car, hear the geology and history, then collect and keep your own garnets in the open pit.",
+     "seasons": [
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "big group"
+     ],
+     "cost_band": "under $20pp",
+     "needs_booking": "no, but tours run at set times only — 10:30, 12:30 and 3:00",
+     "note": "Honest warning for this category: the collecting area is open ground with no shelter, so in real rain it is miserable and the tour may not run. Keep it as a fine-weather standby, not a wet-day rescue. The season is short — the shop opens 1 July and it closes for the year in early autumn, so it is unavailable for most of the year. The access road is unpaved and steep, and phone signal disappears up there, so agree a meeting plan if you travel in two cars.",
+     "confidence": "certain",
+     "url": "https://visitnorthcreek.org/project/garnet-mine-tours/"
+    },
+    {
+     "name": "North Creek Depot Museum",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Restored railway depot telling the story of the line, the garnet and timber trade, and Theodore Roosevelt's night ride from North Creek in 1901 on learning he had become president. Small, donation-based.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers",
+      "grandparents",
+      "rainy day"
+     ],
+     "cost_band": "free",
+     "needs_booking": "no",
+     "note": "A thirty to forty-five minute stop, not an afternoon — useful as the second half of a North Creek errand rather than a plan on its own. It opens for the season on Memorial Day weekend, then weekends only through June, then daily except Wednesdays from early July to Labor Day, afternoons only, roughly 12 to 4. Closed through winter and early spring. The hours are narrow enough that it is worth checking the site the same day. Group tours out of season can be arranged if you ask in advance.",
+     "confidence": "certain",
+     "url": "https://northcreekdepotmuseum.org/"
+    },
+    {
+     "name": "Town of Johnsburg Library",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "The local public library on Main Street in North Creek. Books, a children's section, public computers and wifi.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "rainy day"
+     ],
+     "cost_band": "free",
+     "needs_booking": "no",
+     "note": "Here for what it actually is: somewhere free and dry, ten minutes away, where one adult can take two restless children for an hour while the house recovers. It is not a destination. Outside summer it is closed Sunday, Monday and Tuesday, opens late morning on Wednesday, Thursday and Friday, and Saturday mornings only — Thursday runs latest. Summer hours differ. Also worth knowing as the nearest reliable wifi if the house connection is poor.",
+     "confidence": "certain",
+     "url": "https://townofjohnsburglibrary.sals.edu/"
+    },
+    {
+     "name": "Tannery Pond Center",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "North Creek's arts and community venue on Main Street — the Widlund Gallery for changing exhibitions and a 150-seat auditorium running concerts and local theatre productions.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "rainy day",
+      "evening",
+      "big group"
+     ],
+     "cost_band": "under $20pp",
+     "needs_booking": "advisable for concerts — buy in advance rather than at the door",
+     "note": "Only worth the trip if something is on, so look at the events calendar before you set out; on an empty weekday there is a small gallery and not much else, and the building keeps short weekday office hours. The summer concert series and the community theatre productions are the reason to come, and a 150-seat hall ten minutes from the house is one of the few evening outings here that works for three generations at once. Check ticket prices on the site — they vary by event.",
+     "confidence": "certain",
+     "url": "https://www.tannerypond.org/"
+    },
+    {
+     "name": "Adirondack Folk School",
+     "town": "Lake Luzerne",
+     "drive_minutes": 40,
+     "what": "A school of traditional Adirondack crafts on Main Street in Lake Luzerne, running short hands-on classes all year — spoon carving, blacksmithing, basketry, fibre arts, woodworking. Small groups in proper workshops.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "teenagers",
+      "grandparents",
+      "rainy day"
+     ],
+     "cost_band": "over $50pp",
+     "needs_booking": "essential — classes are small and fill weeks or months ahead",
+     "note": "The best wet-day option here for adults and older teenagers who would rather do something than look at something, and it runs year-round, which almost nothing else on this list does. But it is not spontaneous: you book before your trip, not on the rainy morning, and a full-day class is a substantial per-person fee with a materials charge on top — check both when you book. Most classes carry a minimum age, so confirm it before you promise a child a place. Not suitable for small children at all, and classes often run a full day, which takes that person out of the family plan entirely.",
+     "confidence": "certain",
+     "url": "https://www.adirondackfolkschool.org/"
+    }
+   ]
+  },
+  {
+   "category": "Eating and drinking",
+   "intro": "This is a thin, seasonal food landscape: one real supermarket ten minutes away in North Creek, a handful of daytime diners and delis, and four or five places you would call a proper dinner out. Plan on cooking most nights, do the big shop before you leave the Northway, and assume nothing delivers to the house.",
+   "items": [
+    {
+     "name": "Tops Friendly Market, North Creek",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "The nearest full supermarket, on Main Street: produce, meat, deli counter, beer, pharmacy. This is where you will end up every second day.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "rainy day",
+      "big group"
+     ],
+     "note": "It is one small supermarket serving a whole region, so a Friday afternoon in ski season or a summer holiday weekend strips the shelves. Shop early in the day, and do not plan a stop in Warrensburg instead: the Grand Union there closed in March 2026 and there is now no supermarket between North Creek and Queensbury. Hours are long but confirm seasonally.",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://www.topsmarkets.com/"
+    },
+    {
+     "name": "Hannaford, Market 32 and Walmart, Queensbury (the big shop on the way in)",
+     "town": "Queensbury",
+     "drive_minutes": 55,
+     "what": "Full-size supermarkets clustered near Exits 18-19 of the Northway. Hannaford is at 190 Quaker Rd, Market 32 on Upper Glen Street, Walmart Supercenter on Route 9.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "big group"
+     ],
+     "note": "Do the week's shop here on the drive up, not after you arrive: you still have roughly forty minutes of driving left, and there is no other full supermarket on the route. Twelve people's worth of food is cheaper and far better stocked here, and anything you forget costs a 20-minute round trip to North Creek. Buy beer here too; New York supermarkets cannot sell wine or spirits.",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "confidence": "certain"
+    },
+    {
+     "name": "Adirondack Spirits",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "The nearest wine and liquor store, in the Tops plaza on Main Street.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "evening"
+     ],
+     "note": "New York does not sell wine or spirits in supermarkets, and a liquor store cannot sell beer, so a full drinks run means two stops in the same car park. It shuts in the evening and closes early on Sundays, and nothing around here is open late, so buy before dinner rather than after. Check hours seasonally.",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "confidence": "certain"
+    },
+    {
+     "name": "Kelly's Good Eats and More",
+     "town": "Wevertown",
+     "drive_minutes": 5,
+     "what": "Plain breakfast and lunch counter on Route 28 in Wevertown, the closest cooked food to the house. Eggs, sandwiches, that sort of thing.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "rainy day"
+     ],
+     "note": "Daytime only, and it closes when the lunch trade dries up rather than at a fixed hour. It is a small room: a party of twelve should ring ahead on 518-251-3947 or split into two sittings.",
+     "cost_band": "under $20pp",
+     "needs_booking": "advisable",
+     "confidence": "certain"
+    },
+    {
+     "name": "WeverCreek Diner",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Straightforward diner on Route 28 between Wevertown and North Creek. Breakfast and lunch.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "rainy day"
+     ],
+     "note": "An early-opening breakfast and lunch place that shuts in the early afternoon, so it is not a dinner plan. Ring 518-251-0194 before turning up with twelve people, and confirm the day's hours while you are at it.",
+     "cost_band": "under $20pp",
+     "needs_booking": "advisable",
+     "confidence": "certain"
+    },
+    {
+     "name": "Cafe Sarah",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Bakery and cafe at 260 Main Street. Fresh bread, cookies and pastries, homemade soups, sandwiches and paninis. The best coffee-and-something stop in the area.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "rainy day"
+     ],
+     "note": "Closed Monday and Tuesday, and shuts mid-afternoon the rest of the week. Monday is the weak day across the whole of Main Street, so if you drive in for a Monday breakfast, ring ahead or fall back on Stewart's.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "confidence": "certain"
+    },
+    {
+     "name": "Marsha's Family Restaurant",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Family diner at 268 Main Street doing large, cheap breakfasts: pancakes, eggs, hash browns. The default Sunday morning.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "rainy day"
+     ],
+     "note": "Small dining room, popular with locals and skiers, breakfast and lunch only. A table of twelve at 9am on a Saturday is optimistic: go early, or phone 518-251-5750 first.",
+     "cost_band": "under $20pp",
+     "needs_booking": "advisable",
+     "confidence": "certain"
+    },
+    {
+     "name": "The Hungry Crow Market & Cafe",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Market and cafe at 290 Main Street, next to Hudson River Trading Co.: coffee, grab-and-go sandwiches, good bread, craft beer, pies, prepared dinners and soft serve.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "rainy day"
+     ],
+     "note": "Roughly 10am to 5pm only. This is the practical answer to nobody wanting to cook, in a place with no delivery: collect prepared food in the afternoon and heat it at the house. Do not count on it after 5pm.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://thehungrycrowmarket.com/"
+    },
+    {
+     "name": "Timber and Thyme at The Station",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Lunch, dinner and drinks in the newer lodge at the North Creek Ski Bowl, 50 Ski Bowl Road, at the village end rather than up at the main Gore base area.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "big group",
+      "young children",
+      "teenagers",
+      "evening"
+     ],
+     "note": "A new, large room and probably your best chance of seating twelve, but ring first: it runs on the ski and event calendar and hours change sharply between seasons. Note that Basil & Wick's, the name in most older guides to this area, closed in 2025; do not plan around it.",
+     "cost_band": "$20-50pp",
+     "needs_booking": "advisable",
+     "confidence": "likely",
+     "url": "https://goremountain.com/timber-and-thyme/"
+    },
+    {
+     "name": "Beck's Tavern",
+     "town": "Gore Mountain base",
+     "drive_minutes": 20,
+     "what": "German-leaning menu and a full bar in a yurt complex by the lodge at the base of Gore, with live music at weekends.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "teenagers",
+      "evening",
+      "big group"
+     ],
+     "note": "Friday to Sunday only, midday until early evening. A Tuesday visit will find it shut, and it stops serving earlier than most people expect for a bar. Twenty minutes each way on unlit mountain roads, so settle who is driving before the first round.",
+     "cost_band": "$20-50pp",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://goremountain.com/"
+    },
+    {
+     "name": "The Log House at Garnet Hill Lodge",
+     "town": "North River",
+     "drive_minutes": 25,
+     "what": "Dinner in an old timber lodge above Thirteenth Lake, 39 Garnet Hill Road. The nicest sit-down meal you can reach without leaving the immediate area.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "grandparents",
+      "evening",
+      "big group"
+     ],
+     "note": "Dinner only, from late afternoon, and it stops serving earlier Sunday to Thursday than at weekends. Book on 518-251-2444, several days ahead for twelve. The last few miles are an unlit back road up Thirteenth Lake Road that drifts over in winter; do not attempt it in a low car after heavy snow.",
+     "cost_band": "$20-50pp",
+     "needs_booking": "essential, several days ahead for a large table",
+     "confidence": "certain"
+    },
+    {
+     "name": "Friends Lake Inn",
+     "town": "Chestertown",
+     "drive_minutes": 20,
+     "what": "The area's serious restaurant: New American cooking and a large wine cellar in a country inn, with a more casual taproom alongside.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "grandparents",
+      "evening"
+     ],
+     "note": "Book a couple of weeks ahead for a weekend or for a table of twelve, and confirm by phone even if you book online. They have been known not to open the dining room on quiet nights, and service days narrow in the shoulder seasons, so ring to confirm your night rather than assuming. Expensive by local standards, and not the room for restless small children.",
+     "cost_band": "over $50pp",
+     "needs_booking": "essential, two weeks ahead for weekends or large tables",
+     "confidence": "certain",
+     "url": "https://friendslake.com/dining/"
+    },
+    {
+     "name": "The Barking Spider",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "The local bar at 302 Main Street. Burgers, wraps, chili cheese fries, beer on tap, open late by Adirondack standards.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "evening",
+      "teenagers"
+     ],
+     "note": "Opens early afternoon and runs late, which makes it the only realistic option once the kitchens on Main Street have shut. It is a bar first, so not a plan for young children or a quiet dinner with grandparents. No website; phone 518-251-9911 to check anything.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "confidence": "certain"
+    },
+    {
+     "name": "Main Street Ice Cream Parlor",
+     "town": "Chestertown",
+     "drive_minutes": 15,
+     "what": "Old-fashioned ice cream parlour and restaurant in a former schoolhouse, with a gift shop. Breakfasts, deli sandwiches, soups and chili, and large ice creams.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "rainy day"
+     ],
+     "note": "Usually closed Monday and Tuesday, and outside high summer it shuts mid-afternoon, so treat it as a lunch or mid-afternoon stop rather than an evening one. Winter hours shrink and it may close in the deep off-season; ring before driving over.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "confidence": "likely"
+    },
+    {
+     "name": "Oscar's Adirondack Smokehouse",
+     "town": "Warrensburg",
+     "drive_minutes": 25,
+     "what": "Long-established smokehouse at 22 Raymond Lane making bacon, hams, sausage, jerky and smoked cheeses on site, plus sandwiches. A shop, not a restaurant.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "big group",
+      "rainy day"
+     ],
+     "note": "Open daily, daytime hours. Worth the trip if you are self-catering for twelve: a week of breakfast bacon and sausage in one stop. Bring a cool bag in summer, and note there is nowhere to sit and eat.",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://oscarsadksmokehouse.com/"
+    },
+    {
+     "name": "Nettle Meadow Farm and Artisan Cheese",
+     "town": "Thurman",
+     "drive_minutes": 20,
+     "what": "Goat and sheep dairy on South Johnsburg Road with a farm shop and the Kemp animal sanctuary you can walk around. Their Kunik is a genuinely well-known cheese.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents"
+     ],
+     "note": "Shop and farm keep short daytime hours and there is usually a free tour and tasting on Saturday; confirm before setting off, as farm hours move with the season. The roads in are narrow and poorly signposted and cell signal is bad, so download the route before you leave the house. It is an outdoor visit, so not a rainy-day plan.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "confidence": "likely",
+     "url": "https://www.nettlemeadow.com/"
+    },
+    {
+     "name": "North Creek Farmers Market",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Weekly market at Riverfront Park by the railway station: produce, baked goods, prepared food and crafts.",
+     "seasons": [
+      "summer"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "big group"
+     ],
+     "note": "Thursday afternoons only, and the 2026 season ran mid-June to mid-September. Outside those dates there is no farmers market anywhere nearby, so check this year's dates before building a day around it. Bring cash; not every stall takes cards and signal at the park is patchy.",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://www.northcreekfarmersmarket.org/"
+    },
+    {
+     "name": "Wylde Young Delicatessen",
+     "town": "Johnsburg",
+     "drive_minutes": 10,
+     "what": "Deli on Route 8 west of Wevertown doing sandwiches and provisions. Useful if you are heading out that way rather than towards North Creek.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "rainy day"
+     ],
+     "note": "Wednesday to Sunday only, daytime into early evening, so shut Monday and Tuesday. It is a recent opening and days at small Route 8 businesses change without notice; phone 518-251-8009 before making the trip.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "confidence": "likely"
+    },
+    {
+     "name": "Hey Days 267 (pizza and takeaway)",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Pizza by the 16-inch or 10-inch pie, plus subs, wings, salads and pasta. Gluten-free and cauliflower crusts have been on the menu.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "big group"
+     ],
+     "note": "Check before publishing and before ordering. As of mid-2026 it is listed as closed on at least one review site and no longer appears on the local chamber's list of open North Creek restaurants; its website did not load. Even when trading it ran very short hours, a few afternoons and evenings a week. More importantly: there is no food delivery to a house in Wevertown at all, no app covers this area, so a pizza night means someone drives to North Creek and collects during whatever narrow window is open.",
+     "cost_band": "under $20pp",
+     "needs_booking": "advisable, order ahead by phone",
+     "confidence": "check-before-publishing"
+    },
+    {
+     "name": "Izzy's Market & Deli",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Breakfast and lunch place with a market counter at 282 Main Street: specialty coffee, deli sandwiches, basic provisions.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "rainy day",
+      "grandparents"
+     ],
+     "note": "Check before publishing. It takes multi-week closures between seasons, including a shutdown straight after Labor Day 2026 with reopening advertised for 17 September, and it has run a short four-day week. Phone 518-251-3000 on the day rather than promising anyone breakfast there.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "confidence": "check-before-publishing"
+    },
+    {
+     "name": "Stewart's Shop",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Regional convenience shop and petrol station at 3259 Route 28: milk, bread, ice cream, coffee, breakfast sandwiches, basic groceries.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "rainy day"
+     ],
+     "note": "The fallback when everything else is shut: open from very early until midnight, including the Mondays when much of Main Street is closed. It sells beer but not wine or spirits. Fill the car here rather than assuming there is a petrol station further into the mountains; mostly there is not.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://locations.stewartsshops.com/ny/north-creek/308"
+    }
+   ]
+  },
+  {
+   "category": "Children and teenagers",
+   "intro": "The options for children near Wevertown fall into two groups: a handful of worthwhile things within 30 minutes (railbikes, a garnet mine, caves, a free sledding hill), and the Lake George and Queensbury strip 40 to 50 minutes south, which mixes real attractions with tired ones. Several of the close-in places run July and August only and some open weekends-only in shoulder season, so confirm dates and hours directly with the business before you build a day around one.",
+   "items": [
+    {
+     "name": "Revolution Rail Co. railbikes",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Pedal-powered carts that run on the old Saratoga-North Creek railway line along the Hudson. Quad carts take up to four people, tandems take two. The standard North Creek trip is a round trip of a few hours at walking-to-jogging pace with a turnaround stop by the river; longer routes are offered as separate tours.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "big group"
+     ],
+     "note": "Book ahead. This is the most-booked activity in North Creek and summer weekends sell out days in advance. The season has started in early May. Small children ride as passengers but only adults and older teenagers do useful pedalling, so a cart of young children means the adults pedal the whole way. Electric-assist carts are offered on some routes and are worth asking for if anyone in the group will struggle. There is no longer a scenic passenger train on this line, so do not plan on a train ride.",
+     "cost_band": "$20-50pp",
+     "needs_booking": "essential, a week ahead in July and August",
+     "confidence": "certain",
+     "url": "https://www.revrail.com/north-creek-railbiking"
+    },
+    {
+     "name": "Garnet Mine Tours (Barton Garnet Mines)",
+     "town": "North River",
+     "drive_minutes": 25,
+     "what": "A working-history open-pit garnet mine on the flank of Gore Mountain. Tours start at the mineral shop, you follow a guide up in your own car, get a talk on the geology and history, then break rock in the pit and keep what you find.",
+     "seasons": [
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents"
+     ],
+     "note": "Essentially a July-and-August attraction: the shop and tours have opened around 1 July and run daily to Labor Day, then weekends only into the fall. Tours go at fixed times a few times a day rather than continuously, so arriving between them gets you the gift shop and nothing else. Phone ahead for that day's tour times. The last stretch is a steep unpaved mine road you drive yourself. Closed shoes, water, and expect to pay by weight for anything large you want to take home.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no, but arrive before a tour time",
+     "confidence": "certain"
+    },
+    {
+     "name": "Natural Stone Bridge and Caves",
+     "town": "Pottersville",
+     "drive_minutes": 25,
+     "what": "A privately run geology park built around the largest marble cave entrance in the east. The basic visit is a self-guided loop on boardwalks and rock past potholes, the brook and the stone bridge itself, with gemstone sluicing and a small maze for younger children.",
+     "seasons": [
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents"
+     ],
+     "note": "There are two separate seasons with a long gap. The self-guided walk runs from roughly mid-May through the summer and early fall. Winter is Friday to Sunday only, mid-December to mid-March, as self-guided snowshoe trails with the caves closed and last tickets sold well before closing time; snowshoes are required and on-site rentals are limited, so bring your own. It is shut through mud season, roughly mid-March to mid-May. The loop has stairs and uneven wet rock, so it is not passable with a stroller and is awkward for anyone unsteady on their feet. Guided adventure tours and the cave float are extra and need booking. Sluicing costs extra on top of admission.",
+     "cost_band": "$20-50pp",
+     "needs_booking": "no for self-guided, essential for the adventure and cave tours",
+     "confidence": "certain",
+     "url": "https://stonebridgeandcaves.com/"
+    },
+    {
+     "name": "Gore Mountain summer operations at the Ski Bowl",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Lift-served scenic chairlift rides on the Hudson Chair, about 20 km of downhill mountain bike trails, hiking and a climbing challenge course. Teenagers with bike confidence can ride the lift-served trails; everyone else can take the chair up for the view over the Hudson valley.",
+     "seasons": [
+      "summer"
+     ],
+     "good_for": [
+      "teenagers",
+      "grandparents",
+      "big group"
+     ],
+     "note": "Summer operations are at the North Creek Ski Bowl on Ski Bowl Road, not the main Peaceful Valley Road base. Drive to the big ski-season base in July and you will find nothing running. The season is short and late: recently it has started around the first week of July and ended in the first week of September, running Wednesday to Sunday only, so Monday and Tuesday are dead days. Autumn foliage lift rides, when they run, are on separate dates and may be at the main mountain base instead; check which base before driving. Bike rental and lift tickets are charged separately.",
+     "cost_band": "$20-50pp",
+     "needs_booking": "advisable for bike rental, otherwise no",
+     "confidence": "certain",
+     "url": "https://goremountain.com/todo/scenic-skyrides/"
+    },
+    {
+     "name": "Ski Bowl Park",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "The town recreation area at the base of the Ski Bowl: playground, ball fields, tennis, dog park, a covered pavilion and easy walking and bike trails.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "big group"
+     ],
+     "note": "Free and unstaffed, with no food service except on event days, so bring your own. It doubles as Gore's summer activity base, so on a summer weekend the car park is full of mountain bikers and the trails are in use. Treat it as a one-hour release valve for children who have had enough of the car, not a destination.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain"
+    },
+    {
+     "name": "North Creek Ski Bowl snow tubing",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Lift-served snow tubing at Gore's satellite hill in the village, with daytime and floodlit evening running. No skill required, which makes it the one winter activity that works for a group where some people do not ski.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "evening",
+      "big group"
+     ],
+     "note": "Tubing is sold in timed sessions and they sell out over Christmas week and Presidents' week, so buy online before you travel rather than turning up. There is normally a height minimum to ride alone, so very small children may be limited or excluded. Tubing does not necessarily run every day the ski area does, and Gore has run a Wednesday-to-Sunday week in the past, so check the Ski Bowl's own page and not the main mountain page. The Ski Bowl Nordic centre was closed for the 2025/26 season and its return is not guaranteed, so do not count on cross-country skiing here without confirming.",
+     "cost_band": "$20-50pp",
+     "needs_booking": "advisable, essential over Christmas and Presidents' week",
+     "confidence": "likely",
+     "url": "https://goremountain.com/the-mountain/about-the-ski-bowl/"
+    },
+    {
+     "name": "Dynamite Hill Recreation Area",
+     "town": "Chestertown",
+     "drive_minutes": 15,
+     "what": "A town-run hill with sledding and downhill tubing, a rope tow for skiing and boarding, night lighting, an ice rink and a warming hut.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "big group"
+     ],
+     "note": "Free, and the sledding hill is always open, but there are no rentals of any kind. Bring sleds, skates and skis or you will stand and watch. The rope tow runs weekends only and only when there is roughly a foot of snow, so in a thin winter there may be nothing operating. The warming hut has the only toilets. The same site has the Caroline Fish Memorial Trails for walking in summer, but winter is the reason to come.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://www.chesterwcny.gov/dynamite-hill"
+    },
+    {
+     "name": "Nettle Meadow Farm and Artisan Cheese",
+     "town": "Thurman",
+     "drive_minutes": 15,
+     "what": "A goat and sheep dairy on South Johnsburg Road that doubles as a sanctuary for retired and rescued farm animals, with several hundred goats plus sheep and other animals, and a shop selling the cheese they produce.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents"
+     ],
+     "note": "The guided tour has run on Saturdays at midday; on other days you walk the barns yourself, which is pleasant but much less engaging for small children, so aim for Saturday if the tour matters. Opening is weather-dependent and the farm is on a back road, so ring ahead in bad weather rather than driving out on spec. This is a working farm and sanctuary, not a petting zoo, and some animals are not to be handled. A half-hour stop, not a half-day.",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://www.nettlemeadow.com/"
+    },
+    {
+     "name": "Adirondack Experience, the Museum on Blue Mountain Lake",
+     "town": "Blue Mountain Lake",
+     "drive_minutes": 45,
+     "what": "A large open-air history museum on a hillside campus of historic and purpose-built buildings. Children can climb a fire tower, walk through a restored railcar, row a guideboat on the pond and use hands-on exhibits, and there is enough substance that teenagers do not write it off.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "big group"
+     ],
+     "note": "Open late May to mid-October only, closed the rest of the year, and it shuts mid-afternoon, so a late start wastes the drive. It is a half to full day and mostly outdoors across a spread-out hillside site, which makes it a poor choice in heavy rain and a lot of walking for anyone with limited mobility; ask at the gate about the on-site shuttle. Also ask whether your ticket is valid for a second day. Forty-five minutes each way on slow road, so it eats the whole day.",
+     "cost_band": "$20-50pp",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://www.theadkx.org/"
+    },
+    {
+     "name": "Indian Lake Theater",
+     "town": "Indian Lake",
+     "drive_minutes": 30,
+     "what": "A community-run single-screen cinema in the village of Indian Lake, showing current films year-round plus occasional live events. Concessions include beer and wine.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents",
+      "rainy day",
+      "evening"
+     ],
+     "note": "The best rainy-day answer that does not involve driving to Queensbury, and cheap: adult tickets have been around $8 with accompanied children admitted free, though check current prices. The catch is that one screen means a handful of showings a week, typically evenings Thursday to Saturday with a Sunday matinee, and there may be nothing on the day you want. Look at the actual schedule before driving 30 minutes each way. Bring cash as a backstop.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://www.indianlaketheater.org/"
+    },
+    {
+     "name": "The Fun Spot",
+     "town": "Queensbury",
+     "drive_minutes": 50,
+     "what": "An indoor and outdoor family entertainment centre on Route 9: roller skating rink, arcade, laser tag, VR, indoor playground and a ninja course inside, go-karts and adventure golf outside.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "rainy day",
+      "big group"
+     ],
+     "note": "The reason to know about this place is rain. Almost everything else within an hour is outdoors, and this is open year-round with most of it under a roof. The go-karts are outdoors and seasonal, roughly April to October, so do not promise them on a cold day. You pay per activity rather than one gate price, which is how a family runs up a surprising bill; agree what you are doing before you walk in. Fifty minutes each way, so it only makes sense on a washed-out day.",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://thefunspot.net/"
+    },
+    {
+     "name": "Lake George village: mini golf, arcades and the beach",
+     "town": "Lake George",
+     "drive_minutes": 40,
+     "what": "The lakefront village has arcades, ice cream, a public beach and Around the World Golf on Beach Road, two 18-hole mini golf courses within walking distance of the water. Pirate's Cove is a second, larger mini golf course but it is out on Route 9 and needs a separate short drive.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "evening",
+      "no car needed"
+     ],
+     "note": "Be selective. The mini golf, the beach and an evening walk justify the drive; several of the older Canada Street attractions do not. The House of Frankenstein Wax Museum is still there and is exactly what it was decades ago: teenagers may enjoy it ironically and young children may find it genuinely frightening. Water Slide World is gone for good, closed since 2018 and the site redeveloped, so ignore any listing that still shows it. Village parking is paid and unpleasant on July and August weekends; go before 10am or after 5pm. Most of the seasonal attractions here shut for the winter.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://www.aroundtheworldgolf.com/"
+    },
+    {
+     "name": "Lake George Steamboat Company cruises",
+     "town": "Lake George",
+     "drive_minutes": 40,
+     "what": "Paddlewheel and motor vessel cruises from the village dock. The shortest Minne-Ha-Ha trip is about an hour and is the right length for small children; longer Mohican trips run deep into the narrows and suit older children and grandparents.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "big group",
+      "evening"
+     ],
+     "note": "The season runs roughly May to late October and nothing sails in winter. Pick the short cruise for under-eights, because the long ones are several hours with no way off the boat. They also run themed family sailings and dinner cruises that suit young children and mortify teenagers, so read what you are actually booking rather than picking by time. Reserve a few days ahead in July and August. Parking is in the paid village lots, not at the dock.",
+     "cost_band": "$20-50pp",
+     "needs_booking": "advisable, a few days ahead in summer",
+     "confidence": "certain",
+     "url": "https://lakegeorgesteamboat.com/"
+    },
+    {
+     "name": "Adirondack Extreme Adventure Course",
+     "town": "Bolton Landing",
+     "drive_minutes": 50,
+     "what": "A treetop ropes and zipline park with several graded aerial courses for ages 9 and up, smaller kids' courses from age 6, and a low course for roughly ages 3 to 7. The most reliable way to occupy teenagers for half a day.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers",
+      "big group"
+     ],
+     "note": "Check the rules before you book, because they decide who can go. The main courses are ages 9 and up and there is also a reach requirement that rules out some nine and ten year olds regardless of age. Younger children in the 6 to 9 range climb with an adult, so one parent is going up whether they wanted to or not. The season runs roughly April to November. Reserve online, allow time for the safety briefing, and note that a waiver must be signed by a parent or guardian for anyone under 18, which is a problem if the group includes someone else's teenager.",
+     "cost_band": "over $50pp",
+     "needs_booking": "advisable, a few days ahead",
+     "confidence": "certain",
+     "url": "https://adirondackextreme.com/"
+    },
+    {
+     "name": "Lake George Expedition Park (Dino Roar Valley)",
+     "town": "Lake George",
+     "drive_minutes": 40,
+     "what": "Built on the former Magic Forest site on Route 9, now a paved woodland trail past about 20 life-size animatronic dinosaurs, with fossil digging and climbable nests. Ninety minutes to two hours.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "big group"
+     ],
+     "note": "Aimed at roughly ages 3 to 9; teenagers will be finished in 20 minutes and resentful. It opens Memorial Day weekend and then runs weekends only until late June before going daily, so an early-June weekday trip finds it shut. It is an outdoor walking trail with little shelter, which makes a wet day a wasted ticket. The site has changed hands and content repeatedly, so check what is actually included in the ticket you are buying rather than relying on an older description.",
+     "cost_band": "$20-50pp",
+     "needs_booking": "no",
+     "confidence": "certain",
+     "url": "https://lgepark.com/"
+    },
+    {
+     "name": "Six Flags Great Escape and Hurricane Harbor",
+     "town": "Queensbury",
+     "drive_minutes": 45,
+     "what": "The region's full-size amusement park, with roller coasters and an included water park. The one place teenagers will ask to go back to.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers",
+      "big group"
+     ],
+     "note": "Open roughly May to October, with limited operating days either side of the summer peak. Check the operating calendar for your dates rather than assuming the park is open because it is June. Gate prices are high, advance online tickets are substantially cheaper, and parking is charged separately. The park was sold by Six Flags in 2026 and is being taken over by a new operator, so the name and branding will be inconsistent across listings and may change; the park itself continues to run. Bring swimsuits, because the water park is included and is half the value of the day. A full day plus about 90 minutes of driving.",
+     "cost_band": "over $50pp",
+     "needs_booking": "advisable, buy tickets online in advance",
+     "confidence": "certain",
+     "url": "https://www.sixflags.com/greatescape"
+    },
+    {
+     "name": "Up Yonda Farm Environmental Education Center",
+     "town": "Bolton Landing",
+     "drive_minutes": 50,
+     "what": "A county-run nature centre above Lake George with short trails, gardens with a lake overlook, a small natural history museum with mounted native birds and mammals, and a children's activity room. Trails are used for snowshoeing in winter.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "rainy day"
+     ],
+     "note": "It is closed Sundays and Mondays and shuts in the late afternoon, which catches people out. Admission is small. The scheduled naturalist programmes are the good part and they run mainly in July and August; outside those months you may find trails and a closed building. Confirm the day's hours and whether the building is staffed before committing to a 50-minute drive, and note it is quiet rather than exciting, which is its whole appeal against the Lake George strip 10 minutes south.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "confidence": "likely",
+     "url": "https://www.warrencountyny.gov/UpYonda"
+    },
+    {
+     "name": "Barkeater Chocolates",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "A small chocolate maker on Route 28 with a factory shop where you can see production through the window. Fifteen minutes and a bag of chocolate.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "rainy day"
+     ],
+     "note": "Not a day out. It is the stop on the way back from something else, or the bribe after a rained-off morning. Shop hours have been listed around late morning to late afternoon daily but have changed, so ring ahead if you are making a special trip. Any advertised chocolate-making experience is booked separately and is not offered every day, so it is not something you can decide on at the door.",
+     "cost_band": "under $20pp",
+     "needs_booking": "no for the shop, advisable for any booked experience",
+     "confidence": "certain",
+     "url": "https://barkeaterchocolates.com/"
+    },
+    {
+     "name": "Hudson River rafting and scenic float trips",
+     "town": "North Creek / Indian Lake",
+     "drive_minutes": 15,
+     "what": "Several outfitters work out of North Creek and Indian Lake. Alongside the serious Hudson Gorge whitewater there are gentle scenic floats on the calmer middle Hudson between North River and North Creek, which is the option that works for mixed-age families.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers",
+      "big group"
+     ],
+     "note": "Age limits decide this, and they change with the water. In spring high water the Gorge trips require 14 or 16 and up; by summer the minimum drops to around 8, with some outfitters taking 6 on easier water. Scenic floats often have no age minimum at all but a lifejacket weight minimum of around 50 lb, which is the real limit for small children. Ask your specific outfitter about your specific date rather than trusting a general listing. Gorge trips are a full day with a long bus shuttle and depend on a dam-release schedule, so this is not a decide-at-breakfast activity; book at least a week ahead. Wetsuits are usually needed in spring, and outfitters supply them.",
+     "cost_band": "over $50pp",
+     "needs_booking": "essential, at least a week ahead",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "category": "Scenic drives, towns and seasonal events",
+   "intro": "Wevertown sits where Route 8 meets Route 28 in the southern Adirondacks, so almost everything worth seeing is a drive, and the drives are a large part of the point. This section covers when the leaves actually turn, which roads are worth the fuel and which are gated or unploughed half the year, what each nearby town is useful for, and the annual events worth either planning around or avoiding.",
+   "items": [
+    {
+     "name": "Foliage timing: when the colour actually arrives",
+     "town": "Whole region",
+     "drive_minutes": 0,
+     "what": "Autumn colour moves from north to south and from high ground down over roughly three weeks rather than arriving everywhere at once. Around the house the usual window is the last days of September through the second week of October.",
+     "seasons": [
+      "fall"
+     ],
+     "good_for": [
+      "grandparents",
+      "big group",
+      "no car needed"
+     ],
+     "note": "Do not book a specific 'peak weekend' months out. Peak swings a week either way depending on the summer, and a wet, windy week strips the maples early. Higher ground to the north (Minerva, Newcomb, Blue Ridge Road) turns about a week before Wevertown; Warrensburg and Lake George run about a week behind it. The I Love NY / Visit Adirondacks foliage report updates weekly through September and October and is more use than any historical date, though it is a projection, not a forecast. Columbus Day weekend is the busiest of the year: book restaurants ahead and expect slow traffic on Route 28.",
+     "confidence": "certain",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "url": "https://visitadirondacks.com/fall"
+    },
+    {
+     "name": "The 28N and Blue Ridge Road loop",
+     "town": "North Creek to Minerva to Newcomb to North Hudson",
+     "drive_minutes": 10,
+     "what": "North on 28N through Minerva to Newcomb, then east on Blue Ridge Road to North Hudson and the Northway, back down through Schroon Lake. Big empty forest, ponds at the roadside, and the Newcomb overlook with a clear view of Mount Marcy and the Santanoni range.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "grandparents",
+      "big group",
+      "teenagers"
+     ],
+     "note": "Closer to three hours of driving with no stops, not ninety minutes, and a full day with them. Fill the tank in North Creek and assume no fuel until the Northway: Minerva and Newcomb have almost no services and nothing you can rely on being open. Mobile signal is gone for most of the route. Bring lunch. Blue Ridge Road is ploughed all winter but it is about twenty miles of nothing with no services, so do not start it in falling snow or after dark in January.",
+     "confidence": "certain",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "url": "https://www.adirondackhub.com/scenic-drives/true-wilderness-loop"
+    },
+    {
+     "name": "Route 28 up the Hudson, and Barton Mines Road",
+     "town": "North Creek, North River, Indian Lake",
+     "drive_minutes": 0,
+     "what": "The everyday drive. Route 28 follows the Hudson from Wevertown past North Creek and North River to Indian Lake, with the river, the rafting put-ins and Gore Mountain alongside. Barton Mines Road climbs several miles off Route 28 at North River up the shoulder of Gore for the widest view in the immediate area, and the garnet mine at the top runs guided tours.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "big group"
+     ],
+     "note": "Barton Mines Road is steep, part-gravel and not a road for an ordinary car once there is snow on it, so treat this as a spring-to-autumn drive. The mine tours have a short summer-only season with a handful of fixed departure times a day and they have changed hands in recent years: call or check before driving up rather than turning up, and treat the road and the view as the reason to go if the tour is not running. Tours are charged per person on top of the drive. Signal drops out north of North River.",
+     "confidence": "likely",
+     "cost_band": "varies",
+     "needs_booking": "advisable, check the day before for tour times",
+     "url": "https://visitnorthcreek.org/project/garnet-mine-tours/"
+    },
+    {
+     "name": "Route 8 west to Speculator",
+     "town": "Johnsburg, Bakers Mills, Speculator",
+     "drive_minutes": 0,
+     "what": "Route 8 runs past the end of the drive. Head west and it skirts the Siamese Ponds Wilderness, passes Eleventh Mountain, and picks up the East Branch of the Sacandaga with fishing pull-offs most of the way to Speculator. It is the emptiest road you can reach without trying.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers",
+      "grandparents"
+     ],
+     "note": "Around an hour each way to Speculator, and longer than the map suggests. There is no fuel, no shop and no reliable phone signal between Bakers Mills and Route 30, so stock up in North Creek or Chestertown first. Frost heaves are bad from March into May and will rattle a loaded car. It is ploughed in winter, but there is little open at the far end in January, so there is no reward at the end of the drive.",
+     "confidence": "certain",
+     "cost_band": "free",
+     "needs_booking": "no"
+    },
+    {
+     "name": "Prospect Mountain Veterans Memorial Highway",
+     "town": "Lake George",
+     "drive_minutes": 40,
+     "what": "A five-mile paved toll road climbing to a summit above Lake George, with a car park near the top and a short walk (a shuttle sometimes runs, but do not count on it) to the viewing area. The easiest big view in the region for anyone who cannot manage a hike.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "grandparents",
+      "young children",
+      "big group"
+     ],
+     "note": "Strictly seasonal: roughly late May to Veterans Day in November, weather permitting, and shut all winter. The fee is charged per vehicle rather than per head, in the region of ten dollars a car, so a full car is cheap — confirm the current rate. The gate closes in the late afternoon, earlier after Labor Day, so it is not a sunset drive. They close it for weather and cloud at short notice, so check on the morning rather than driving forty minutes on spec.",
+     "confidence": "certain",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "url": "https://visitadirondacks.com/recreation/prospect-mountain-veterans-memorial-highway"
+    },
+    {
+     "name": "Cedar River Road and the Moose River Plains",
+     "town": "Indian Lake",
+     "drive_minutes": 45,
+     "what": "A gravel wilderness road running west from Indian Lake past the Cedar River Flow into the Moose River Plains. Ponds, primitive campsites, and a real chance of seeing deer at dusk.",
+     "seasons": [
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers",
+      "big group"
+     ],
+     "note": "Gated and seasonal. It opens in late spring once the snow and mud have gone, often around Memorial Day but later in a slow year, and closes after big-game season in the autumn; in winter it is a snowmobile trail and nothing else. DEC publishes the complex page but not reliable gate dates, so ring the DEC Region 5 office listed on that page before setting out — a shut gate turns this into an hour and a half of driving for nothing. Unpaved and rough: not for a low car, carry a working spare, and expect no phone signal at all. The forty-five minutes above is to the start of the road, not to the far end.",
+     "confidence": "likely",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "url": "https://dec.ny.gov/places/moose-river-plains-complex"
+    },
+    {
+     "name": "North Creek",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "The nearest village and your default for anything you forgot. Fuel, a small grocery and general store, a few cafes and restaurants, outfitters, the Tannery Pond Center for concerts and theatre, and the restored 1871 depot where Theodore Roosevelt learned he had become president.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "rainy day",
+      "teenagers",
+      "big group"
+     ],
+     "note": "Nothing stays open late. Plan dinner before 8pm, and do not count on Sunday or Monday opening in the shoulder seasons of April, May and November. This is a top-up shop, not a big shop: the full supermarket is Chestertown or Warrensburg. The farmers market runs Thursday afternoons at Riverfront Park from roughly mid-June to mid-September. The scenic passenger train between Saratoga and North Creek stopped in 2018 and has not returned, whatever old listings suggest; what runs on the old line now is pedal-powered rail bikes from the station, which are popular and need booking. The depot museum keeps short summer hours, broadly early July to Labor Day and closed Wednesdays.",
+     "confidence": "certain",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "url": "https://visitnorthcreek.org/"
+    },
+    {
+     "name": "Chestertown",
+     "town": "Chestertown",
+     "drive_minutes": 15,
+     "what": "Crossroads village where Route 8 meets the Northway at exit 25. This is the errand town: a full supermarket on Route 9, hardware, liquor, a pharmacy counter, a fuel station that is reliably open, and a handful of places to eat. A farmers market runs at the town hall on summer Wednesdays.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "rainy day",
+      "big group"
+     ],
+     "note": "Fifteen minutes each way, so consolidate into one shop rather than three trips. The supermarket keeps long hours seven days a week and is the most dependable food stop near the house. The Wednesday market runs roughly June to early September, mid-morning into the early afternoon. Restaurant hours contract sharply after Columbus Day and several places shut entirely for the spring mud season, so phone ahead in April and November rather than driving over.",
+     "confidence": "certain",
+     "cost_band": "varies",
+     "needs_booking": "no"
+    },
+    {
+     "name": "Warrensburg and the World's Largest Garage Sale",
+     "town": "Warrensburg",
+     "drive_minutes": 25,
+     "what": "The nearest large supermarket, pharmacy and hardware store, on the Schroon River. Once a year the whole town becomes a yard sale, with hundreds of vendors along Main Street and through the residential streets, on the first weekend of October. There is also a riverfront farmers market on Friday afternoons through the summer.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "teenagers",
+      "big group",
+      "grandparents"
+     ],
+     "note": "Garage Sale weekend is 2 to 4 October in 2026 and draws tens of thousands of people; check the official site for the date in later years. Route 9 and the Northway exits jam solid, so arrive before 9am or write the day off, and use the marked shuttle car parks rather than hunting for a space on Main Street. Free to attend, held rain or shine, and most sellers take cash only. Sales run sunup to sundown, not shop hours. The Friday farmers market runs late afternoon, roughly late May to early October.",
+     "confidence": "certain",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "url": "https://warrensburggaragesale.com/"
+    },
+    {
+     "name": "Schroon Lake and the Seagle Festival",
+     "town": "Schroon Lake",
+     "drive_minutes": 30,
+     "what": "A quiet lake town with a free public beach, a short main street and an original Art Deco cinema showing first-run films. It is also home to the Seagle Festival, a long-established summer opera and musical theatre company that stages four mainstage productions across July and August, plus a children's show that tours nearby towns.",
+     "seasons": [
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "evening"
+     ],
+     "note": "Seagle plays to a small house on a short run — each mainstage title runs only a few nights — and popular ones sell out, so book weeks ahead rather than turning up. The cinema is summer-only, broadly Memorial Day to Labor Day, has no website, and posts its schedule on Facebook, so do not plan a rainy-afternoon film in May or October. The Adirondack Marathon takes over the last weekend of September (27 September in 2026): the course circles the lake and roads are closed or down to one lane until mid-afternoon on the Sunday, and the Saturday 5K and 10K run in Chestertown. Good to watch, a real problem if you had planned to drive through.",
+     "confidence": "certain",
+     "cost_band": "varies",
+     "needs_booking": "advisable, two to four weeks ahead for Seagle performances",
+     "url": "https://seaglefestival.org/"
+    },
+    {
+     "name": "Blue Mountain Lake and the Adirondack Experience",
+     "town": "Blue Mountain Lake",
+     "drive_minutes": 45,
+     "what": "A large museum of Adirondack life spread over a hillside above the lake: guideboats, logging, a one-room schoolhouse, rustic furniture, and good hands-on exhibits for children. The drive over from Indian Lake on Route 28 is one of the better ones in its own right.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "rainy day",
+      "big group"
+     ],
+     "note": "Open daily from roughly late May to mid-October and shut the rest of the year, so it is not a winter or early-spring fallback. Allow three to four hours; it is much bigger than it looks from the car park, and a lot of it is outdoors and spread between buildings, so heavy rain does spoil it. Admission has generally been valid for two consecutive days, which is worth knowing if you run out of afternoon. Check the current price and hours before setting off, because both change season to season.",
+     "confidence": "certain",
+     "cost_band": "$20-50pp",
+     "needs_booking": "no",
+     "url": "https://www.theadkx.org/"
+    },
+    {
+     "name": "Great Adirondack Moose Festival",
+     "town": "Indian Lake",
+     "drive_minutes": 30,
+     "what": "A small-town autumn festival over a weekend in late September: craft and vendor stalls, a moose calling contest, guided moose-spotting outings and a run of children's competitions.",
+     "seasons": [
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "big group",
+      "grandparents"
+     ],
+     "note": "26 and 27 September in 2026; confirm the date each year with the Indian Lake Chamber, as it moves with the calendar. Free to attend. It lands on what is often the best foliage weekend of the year and on the same weekend as the Adirondack Marathon, so Routes 28 and 30 are busier than usual and parking in the hamlet is limited — go early. Bring cash for the stalls and a proper coat: late September mornings at that elevation are cold.",
+     "confidence": "certain",
+     "cost_band": "free",
+     "needs_booking": "no"
+    },
+    {
+     "name": "Gore Mountain Harvest Fest and autumn Skyrides",
+     "town": "North Creek",
+     "drive_minutes": 20,
+     "what": "A free autumn fair at the ski base with craft stalls, live music and food, paired with paid gondola rides up the mountain for the foliage view. The Skyrides also run on selected weekends either side of the festival, without the crowds.",
+     "seasons": [
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "big group"
+     ],
+     "note": "Harvest Fest is 10 and 11 October 2026, 10am to 4pm. Admission and parking are free, the gondola is not — check the current ticket price, and note that Skyride sales stop at 3pm with the last ride up at 3.15pm, so this is not an afternoon-nap day. The summit is far colder and windier than the base, so take proper coats even in mild weather. Skyride weekends outside the festival are weather-dependent and can be cancelled for wind, so check the day before. Gore is also the region's main winter draw, running roughly late November to early April depending on snow.",
+     "confidence": "certain",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "url": "https://goremountain.com/harvest-fest/"
+    },
+    {
+     "name": "Hudson River Whitewater Derby",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "One of the oldest continuously running whitewater races in the country, dating to 1958. Slalom racing on the Saturday at North Creek, a downriver race of about 7.5 miles on the Sunday, plus a small street event. Free to watch from the riverbank.",
+     "seasons": [
+      "spring"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "big group"
+     ],
+     "note": "Held the first full weekend of May, which is exactly when the Hudson is highest, fastest and coldest. Confirm on the Visit North Creek page that it is running and which races are on before planning round it: individual races have been cancelled in past years for high water or lack of entries. Free for spectators, but riverfront parking fills early and it is easier to walk in from the village. Early May here can be close to freezing and sleeting — dress for winter and bring a flask. Not much use for anyone who cannot stand outside for a couple of hours.",
+     "confidence": "likely",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "url": "https://visitnorthcreek.org/whitewater-derby/"
+    },
+    {
+     "name": "Lake George village",
+     "town": "Lake George",
+     "drive_minutes": 40,
+     "what": "An old-fashioned lake resort strip: steamboat cruises, mini-golf, arcades, sweet shops and a long public beach. It is the right answer on the day when teenagers have had enough forest, and the wrong answer on any other day.",
+     "seasons": [
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "good_for": [
+      "teenagers",
+      "young children",
+      "evening",
+      "rainy day"
+     ],
+     "note": "Almost everything on Canada Street shuts from about November to April, so out of season this is a walk by a cold lake. The exception is the Winter Carnival, free, held across five weekends from early February into early March (it ran 7 February to 8 March in 2026 — get the coming year's dates before you rely on them), with outhouse races, ice events and Saturday fireworks; the on-ice events only happen if the lake actually freezes. Avoid the village entirely during Americade, the motorcycle rally at the end of May, and the Adirondack Nationals car show in the second week of September — both fill every road and car park for days — unless those are why you came. Both dates move each year; check before booking anything around them.",
+     "confidence": "certain",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "url": "https://www.visitlakegeorge.com/"
+    },
+    {
+     "name": "Adirondack Balloon Festival",
+     "town": "Queensbury and Glens Falls",
+     "drive_minutes": 50,
+     "what": "More than sixty hot air balloons launching from Floyd Bennett Memorial Airport over four days in the third week of September, with an opening evening at Crandall Park in Glens Falls. Free to attend and free to park.",
+     "seasons": [
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents",
+      "big group"
+     ],
+     "note": "17 to 20 September in 2026: opening night at Crandall Park on the Thursday, the airport launches Friday to Sunday. The launches worth the trip are the early morning one and the early evening one; the middle of the day is a field with food stalls. Traffic into the airport is severe, so leave an hour earlier than seems sensible and expect a long walk from the parking field. Standard parking is free; a paid premium pass exists if you want to be close. Launches are scrubbed outright for wind or rain and frequently are, so treat any single slot as a maybe and check the festival's own updates that morning. Riding in a balloon is a separate paid arrangement and books out well ahead.",
+     "confidence": "certain",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "url": "https://adirondackballoonfest.org/"
+    },
+    {
+     "name": "Saratoga Springs as a day trip",
+     "town": "Saratoga Springs",
+     "drive_minutes": 60,
+     "what": "The one place within an hour that is a real small city rather than a resort: a walkable Broadway with bookshops, restaurants and bars that keep normal hours, Congress Park, the thoroughbred racecourse, SPAC for concerts and the Philadelphia Orchestra, and Saratoga Spa State Park with mineral springs, trails, a car museum and public baths.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "teenagers",
+      "grandparents",
+      "rainy day",
+      "evening",
+      "big group"
+     ],
+     "note": "The summer race meet runs from early July to Labor Day — 3 July to 7 September in 2026 — and the dates shift each year, so check NYRA before planning a stay around it. General admission is cheap and usually available on the day, but reserved seats, big Saturday cards and Travers Day sell out months ahead, and lodging across the whole region tightens on those weekends. SPAC lawn tickets are often available late; amphitheatre seats are not. Race-day parking downtown is the main headache, so arrive early or use the garages. In winter the town is quieter but not dead: museums, the state park's ski and snowshoe trails, and holiday lights in Congress Park.",
+     "confidence": "certain",
+     "cost_band": "varies",
+     "needs_booking": "essential for big race days and SPAC seats, months ahead; nothing else needs it",
+     "url": "https://www.nyra.com/saratoga/"
+    }
+   ]
+  },
+  {
+   "category": "Practical things a guest needs",
+   "intro": "Wevertown is a crossroads hamlet, not a town: the supermarket, pharmacy, liquor store, hardware shop, bank and petrol are all about ten minutes away in North Creek, and the nearest emergency room is roughly fifty minutes. Sort out food, fuel, cash and firewood on your first afternoon, because the pharmacy is shut at weekends, both hardware shops are shut on Sunday, the ski shop is shut midweek, and seasonal hours change without notice.",
+   "items": [
+    {
+     "name": "Tops Friendly Market, North Creek",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "The only proper supermarket within half an hour, at 273 Main Street. Full produce, meat, deli counter, beer, nappies, basic household goods. Enough to stock a five-bedroom house for a week.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "big group",
+      "rainy day",
+      "grandparents"
+     ],
+     "note": "It is a small-town store. Anything specific — a particular cut of meat, gluten-free bread, fresh fish, a wide choice of wine — bring it with you or buy it in Queensbury on the drive up. New York supermarkets cannot sell wine or spirits, only beer and cider; the liquor store for wine is Adirondack Spirits in the same Main Street row, and it does open on Sunday afternoons. Listed hours have run early morning to evening Monday to Saturday and shorter on Sunday, but check before a late run.",
+     "confidence": "certain",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "url": "https://www.topsmarkets.com/StoreLocator/Store/?L=716"
+    },
+    {
+     "name": "Kelly's Good Eats and More, Wevertown",
+     "town": "Wevertown",
+     "drive_minutes": 5,
+     "what": "Deli, pizza and small country store at 2378 Route 28, the nearest shop of any kind to the house. Breakfast sandwiches, subs, pizza, wings, basic groceries. Take-away.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "big group",
+      "evening"
+     ],
+     "note": "This is the building that used to be Full Belly Deli, which has closed — older guidebooks, maps and signage still name Full Belly, so do not assume the deli has gone. Kelly's has been listed open seven days with earlier closing Monday to Thursday than at the weekend, but a one-till in a hamlet closes when it closes; ring or check its Facebook page the morning you want breakfast rather than driving down with five hungry children. It is a five-minute drive, not a walk.",
+     "confidence": "certain",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "url": "https://www.facebook.com/kellysgoodeats/"
+    },
+    {
+     "name": "Stewart's Shops (petrol, ice, milk, ice cream)",
+     "town": "North Creek and Chestertown",
+     "drive_minutes": 10,
+     "what": "The regional convenience chain and the practical petrol stop. The North Creek shop is on Route 28; there is another in Chestertown. Fuel, coffee, ice, milk, cheap ice cream by the scoop, and a cash machine.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "evening",
+      "big group"
+     ],
+     "note": "There is no petrol station in Wevertown itself. Fill up in North Creek or Chestertown rather than running low — the stretch of Route 28 west towards Indian Lake has long gaps and what stations there are keep short hours. Fuel is noticeably cheaper down in Warrensburg and Queensbury, so top up on the way in. Stewart's keeps longer hours than anything else locally, which makes it the fallback when the supermarket has shut, but check the closing time rather than assuming it is open all night.",
+     "confidence": "certain",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "url": "https://locations.stewartsshops.com/ny/north-creek/308"
+    },
+    {
+     "name": "Walgreens Pharmacy, North Creek",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "The nearest pharmacy, at 284 Main Street, a short walk along from the supermarket. Prescriptions plus the usual over-the-counter stock.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "grandparents",
+      "rainy day"
+     ],
+     "note": "This is the single biggest thing to get wrong. It has been listed as open weekday daytimes only and closed both Saturday and Sunday, with the pharmacy counter also shut for a lunch break. Do not arrive on a Friday night expecting to collect a prescription on Saturday. Bring every regular medication with you in sufficient quantity. If you do need a pharmacy at the weekend, the nearest realistic option is the pharmacy beside the Warrensburg Health Center, twenty-five minutes the other way. Walgreens has been closing rural branches nationally, so confirm this one is still trading before you count on it.",
+     "confidence": "likely",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "url": "https://www.walgreens.com/locator/walgreens-284+main+st-north+creek-ny-12853/id=17154"
+    },
+    {
+     "name": "Warrensburg Health Center Urgent Care",
+     "town": "Warrensburg",
+     "drive_minutes": 25,
+     "what": "Hudson Headwaters walk-in urgent care at 3767 Main Street, open seven days with evening hours. The right place for a sprained ankle, a ski-day wrist, stitches, an ear infection or a chest cold. Walk-ins welcome, not just registered patients.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents"
+     ],
+     "note": "Listed hours have run Monday to Saturday into the evening and a shorter Sunday, but check the same day. First come, first served, and the wait after a busy ski Saturday can be long. A pharmacy sits next door, which is the practical reason to come here rather than to the North Creek clinic if you need a prescription filled the same day — and the reason it is worth the twenty-five minutes at a weekend, when North Creek's pharmacy is shut.",
+     "confidence": "certain",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "url": "https://www.hhhn.org/locations/warrensburg-health-center-urgent-care/"
+    },
+    {
+     "name": "North Creek Health Center",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Hudson Headwaters primary care clinic at 126 Ski Bowl Road. The closest medical help to the house for something that is not an emergency. Listed as weekdays plus a Saturday morning.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents"
+     ],
+     "note": "This is a primary care office, not an urgent care and not an emergency room. Ring first on 518-251-2541 and ask whether they can see a visitor the same day. If they cannot, the answer is Warrensburg urgent care — which is not \"a bit further on\" but twenty-five minutes in the opposite direction from the house, so decide which way you are driving before you set off with a sick child in the car.",
+     "confidence": "certain",
+     "cost_band": "varies",
+     "needs_booking": "advisable",
+     "url": "https://www.hhhn.org/locations/north-creek-health-center/"
+    },
+    {
+     "name": "Glens Falls Hospital Emergency Department",
+     "town": "Glens Falls",
+     "drive_minutes": 50,
+     "what": "The nearest full emergency room, at 100 Park Street, open 24 hours. Part of the Albany Med system. This is where an ambulance from Johnsburg will take you.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "grandparents",
+      "teenagers"
+     ],
+     "note": "Fifty minutes on a good day and longer in snow, so know the route before you need it. The small hospitals further north are further from the house, not nearer, so this is the answer in every direction. For anything genuinely serious call 911 and let the Johnsburg and North Creek volunteer squads come to you rather than driving yourself. Mobile signal at the house may not be good enough to make that call — ask the owner before arrival whether there is a landline, and whether wifi calling works, because wifi calling only routes 911 correctly if the address has been set on the handset.",
+     "confidence": "certain",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "url": "https://www.albanymed.org/location/emergency-department-glens-falls-hospital/"
+    },
+    {
+     "name": "Mobile coverage, and where it fails",
+     "town": "Wevertown",
+     "drive_minutes": 0,
+     "what": "Coverage across the Johnsburg area is patchy and depends heavily on carrier and on which side of a hill you are standing. Some carriers work in the hamlet and not in the valleys; some are the other way round. No one can tell you in advance which will work for your phone.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "teenagers"
+     ],
+     "note": "Assume you will have no usable signal at the house and be pleasantly surprised. Ask the owner for the wifi details and whether wifi calling works — that is usually the real answer here. Download maps, offline routes, playlists and any booking confirmations before you leave home; Route 28 west towards Indian Lake and the back roads towards Thirteenth Lake have long dead stretches. Agree a meeting point and a time with teenagers rather than relying on being able to text them.",
+     "confidence": "likely",
+     "cost_band": "free",
+     "needs_booking": "no"
+    },
+    {
+     "name": "Braley & Noxon Hardware, North Creek",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Full-service hardware shop at 256 Main Street, trading for well over a century. Housewares, plumbing bits, paint, tools, fixings, propane and someone behind the counter who knows which fitting you actually need.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "rainy day"
+     ],
+     "note": "Correcting a common assumption: it is Monday to Saturday and closed on Sunday. So is the lumber yard in Wevertown. That means nothing hardware-shaped is open locally on a Sunday and the nearest option is down in Warrensburg or Queensbury, the better part of an hour. Ring 518-251-2855 before driving over for anything specific. Tell the owner first about anything broken in the house — do not start fixing a rented property yourself.",
+     "confidence": "certain",
+     "cost_band": "varies",
+     "needs_booking": "no"
+    },
+    {
+     "name": "T.C. Murphy Lumber, Wevertown",
+     "town": "Wevertown",
+     "drive_minutes": 5,
+     "what": "Lumber yard, True Value hardware and building supply at 3911 Route 8 in Wevertown, trading since 1915 and the closest trade counter to the house. Timber, hardware, paint, plumbing and electrical bits, propane and equipment hire.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "rainy day"
+     ],
+     "note": "Open Monday to Saturday and closed Sunday, with an early weekday close — it is a trade counter, so it shuts in the late afternoon rather than the evening. Worth ringing 518-251-2424 about firewood before you assume, and about equipment hire if you want something specific. Confirm current hours before making the trip; a hamlet lumber yard will close for a funeral or a hunting week.",
+     "confidence": "certain",
+     "cost_band": "varies",
+     "needs_booking": "no",
+     "url": "https://tcmurphylumber.com/"
+    },
+    {
+     "name": "Firewood",
+     "town": "Wevertown",
+     "drive_minutes": 5,
+     "what": "Most houses here come with a wood stove or a fire pit and some wood already stacked. Where they do not, firewood is sold locally by the face cord — ask at the Wevertown lumber yard or the North Creek hardware shop, and you will also see roadside signs and stands through the autumn.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "evening",
+      "big group"
+     ],
+     "note": "New York restricts moving untreated firewood more than 50 miles from its source. Do not bring wood from home and do not carry it onto a state campground; buy locally sourced or kiln-dried. Ask the owner before you burn anything: some houses supply wood, some charge for it, and a few have a stove the insurer will not let guests use. Ask specifically for seasoned wood — green wood bought in a hurry will smoke and not burn. Bring long matches and firelighters, and expect the outside stack to be wet after a storm.",
+     "confidence": "likely",
+     "cost_band": "varies",
+     "needs_booking": "advisable"
+    },
+    {
+     "name": "Cash and ATMs",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Community Bank at 244 Main Street, North Creek is the only bank branch in the village and has a walk-up cash machine. There is also a machine in the Stewart's on Route 28. Arrow Bank, the rebranded Glens Falls National, has a branch in Chestertown about fifteen minutes away.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "big group"
+     ],
+     "note": "Carry cash. Farm stands, some diners, firewood sellers, trailhead parking and a few small shops are cash-only or cash-preferred, and card readers in the valley go down when the line does. The bank lobby is weekdays only, so at a weekend you are relying on the walk-up machine or the one in Stewart's, and the convenience-store machine charges a fee. Take out what you need for the week in one go rather than making a special trip.",
+     "confidence": "certain",
+     "cost_band": "free",
+     "needs_booking": "no",
+     "url": "https://cbna.com/locations/north-creek"
+    },
+    {
+     "name": "Ski and snowboard hire",
+     "town": "North Creek",
+     "drive_minutes": 10,
+     "what": "Cunningham's Ski Barn at 1 Main Street, North Creek does alpine and cross-country hire, snowshoes, repairs and tuning. Adirondack All Seasons Outfitters on Route 28 also hires skis and boards. Beaver Brook in Wevertown does daily, weekly and seasonal ski hire. Gore Mountain rents at the base lodge, and Garnet Hill in North River is the cross-country specialist with its own trail network.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "young children",
+      "teenagers",
+      "grandparents"
+     ],
+     "note": "Cunningham's has run closed on Tuesdays and Wednesdays, which catches midweek arrivals out — check the day before you plan to collect kit. Hiring in the village is cheaper than hiring at the mountain and you keep the kit for the week instead of queueing every morning; ask for the weekly rate rather than paying by the day. Book ahead for a group of six or more before a holiday weekend. Bring your own helmets and goggles if you can — hire helmets in children's sizes are the first thing to run out at half-term.",
+     "confidence": "certain",
+     "cost_band": "$20-50pp",
+     "needs_booking": "advisable",
+     "url": "https://www.cunninghamsskibarn.com/rentals"
+    },
+    {
+     "name": "Bike, kayak and canoe hire",
+     "town": "Wevertown and North Creek",
+     "drive_minutes": 5,
+     "what": "Beaver Brook Outfitters, on Route 28 between Wevertown and North Creek, hires canoes, kayaks and tubes to take away, with multi-day rates, and also runs guided Hudson River rafting and tubing trips. Adirondack All Seasons Outfitters in North Creek hires bikes and boats in summer.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "teenagers",
+      "big group",
+      "young children"
+     ],
+     "note": "Beaver Brook is the closest outfitter to the house, a few minutes up the road. Ring ahead in July and August — a family-sized set of boats on a hot Saturday goes early. Check whether the price includes roof-rack straps and buoyancy aids, and whether they will deliver to a put-in, because getting three boats onto a hire car is the usual sticking point. Hire bikes here are hardtails and hybrids, not full-suspension mountain bikes. Guided whitewater rafting on the Hudson is a spring high-water activity with minimum ages; it is not the same thing as hiring a canoe for the lake.",
+     "confidence": "certain",
+     "cost_band": "$20-50pp",
+     "needs_booking": "advisable",
+     "url": "https://www.beaverbrook.net/"
+    },
+    {
+     "name": "Laundry",
+     "town": "Warrensburg",
+     "drive_minutes": 25,
+     "what": "Warrensburg Laundry & Dry Cleaning at 11 Richards Avenue is the nearest established laundry business, with self-service machines as well as drop-off wash-and-fold and dry cleaning.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "big group",
+      "rainy day"
+     ],
+     "note": "Twenty-five minutes each way makes this an errand, not a quick job — pair it with the Warrensburg shops, the pharmacy or urgent care. Check before setting off that the self-service side is open that day and take plenty of quarters. Listings for a laundromat in North Creek itself are inconsistent and may be out of date, so do not drive there on spec. For a week with twelve people the simpler answer is to check with the owner what the house washer and dryer can actually cope with, and bring extra detergent.",
+     "confidence": "likely",
+     "cost_band": "under $20pp",
+     "needs_booking": "no",
+     "url": "https://www.wldcclean.com/"
+    },
+    {
+     "name": "Vet, routine and emergency",
+     "town": "Warrensburg",
+     "drive_minutes": 25,
+     "what": "Schroon River Animal Hospital at 150 Schroon River Road, Warrensburg is the nearest small-animal practice, listed as weekdays only and closed at weekends. The nearest after-hours emergency clinic is at Gansevoort, south of Glens Falls, which is over an hour from the house.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "young children"
+     ],
+     "note": "The weekend is the problem. The local practice is weekdays only, and published hours for the Gansevoort emergency clinic have been contradictory — some sources say 24 hours seven days, others show it closed for part of the midweek. Ring before you drive anywhere, and expect over an hour to get there. If you are travelling with a dog on chronic medication, bring more than you need, because you cannot rely on getting a prescription filled here at short notice. Keep dogs leashed on trails: a face full of porcupine quills at 9pm is the classic Adirondack holiday vet bill.",
+     "confidence": "check-before-publishing",
+     "cost_band": "varies",
+     "needs_booking": "advisable",
+     "url": "https://schroonriveranimalhospital.com/"
+    },
+    {
+     "name": "Winter driving reality",
+     "town": "Wevertown",
+     "drive_minutes": 0,
+     "what": "Routes 28 and 8 are state roads, plowed early and well, and generally driveable through a storm. The problem is the last mile: side roads and private lake roads are plowed later, plowed to a packed-snow surface rather than to tarmac, and can be steep and icy for days after a storm.",
+     "seasons": [
+      "winter"
+     ],
+     "good_for": [
+      "grandparents"
+     ],
+     "note": "Between roughly December and March, a two-wheel-drive car on all-season tyres is not enough here. Bring or hire a car with all-wheel drive or proper winter tyres. Ask the owner directly how the driveway and the access road are plowed, and whether an ordinary saloon has made it up in past winters — get that answer before you book, not on arrival at 9pm in the dark. Keep a shovel, a scraper, a torch and a blanket in the boot. North Creek can have eight inches of snow while Albany airport has none, so allow well over the usual 75 minutes for an airport run in winter. Black ice on shaded bends in the late afternoon is the commonest way visitors come off the road.",
+     "confidence": "certain",
+     "cost_band": "free",
+     "needs_booking": "no"
+    },
+    {
+     "name": "Black flies, ticks, and bears",
+     "town": "Wevertown",
+     "drive_minutes": 0,
+     "what": "Three seasonal realities a first-time visitor will not expect. Black flies swarm from roughly mid-May to late June and are worst near running water on still, warm, overcast days. Deer ticks are present and Lyme disease occurs in Warren County. Black bears are common in Johnsburg and are opportunists around rubbish.",
+     "seasons": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "good_for": [
+      "young children",
+      "grandparents"
+     ],
+     "note": "For black flies bring a head net per person and a repellent that works — DEET or picaridin; citronella wristbands do nothing. Long sleeves and light colours help; the flies bite at the hairline and the back of the neck. For ticks, do a full body check every evening, especially on children and behind knees, and carry a proper tick remover rather than tweezers. Treating trousers with permethrin before you travel is worth the effort. For bears, never leave rubbish, cool boxes, barbecue grease or dog food outside or on a screened porch overnight; bins go in a garage or a locked shed, and the bin lid is not a deterrent. A bear that finds food at a house comes back every night for the rest of your stay and the one after.",
+     "confidence": "certain",
+     "cost_band": "free",
+     "needs_booking": "no"
+    },
+    {
+     "name": "What people forget to bring",
+     "town": "Wevertown",
+     "drive_minutes": 0,
+     "what": "The running list of things guests end up driving half an hour to buy, or doing without.",
+     "seasons": [
+      "all year"
+     ],
+     "good_for": [
+      "big group",
+      "young children",
+      "grandparents"
+     ],
+     "note": "Prescription medicines in full, because the local pharmacy is shut at weekends. A torch or head torch per person — power cuts happen in storms and there are no street lights. Insect repellent and head nets from May to July. Sun cream, which people skip in winter and then burn on snow. Swimming shoes for the lake bottom. A tick remover and a basic first-aid kit. Paper maps or downloaded offline maps. Cash. Bin bags and washing-up liquid if the house does not restock them. Board games and a couple of DVDs for a rain day, since streaming depends on rural internet that may be slow. Adapters and a power strip: five bedrooms and twelve people is about twenty devices and not enough sockets. A cool box for the drive up, so the supermarket run does not have to happen twice.",
+     "confidence": "certain",
+     "cost_band": "varies",
+     "needs_booking": "no"
+    }
+   ]
+  }
+ ]
+}

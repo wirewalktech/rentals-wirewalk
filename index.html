@@ -1,0 +1,93 @@
+---
+layout: default
+title: 160 Antler Lake
+description: >-
+  A five-bedroom house on twelve private acres in the southern Adirondacks,
+  twenty minutes from Gore Mountain, with lake rights to Antler Lake. Sleeps
+  twelve. Booked directly with the owner.
+permalink: /
+---
+
+<div class="wrap">
+  <div class="hero">
+    <img src="{{ '/assets/photos/antler-lake/01.jpg' | relative_url }}"
+         alt="160 Antler Lake Rd, Wevertown, New York" fetchpriority="high">
+    <div class="hero-meta">
+      <span><b>5</b> bedrooms</span><span><b>2</b> bathrooms</span>
+      <span>sleeps <b>12</b></span><span><b>12</b> acres</span>
+      <span>lake rights</span><span><b>20 min</b> to Gore Mountain</span>
+    </div>
+  </div>
+
+  <div class="prose" style="margin-top:30px">
+    <h1>A house with room for everyone, twenty minutes from the mountain</h1>
+    <p class="lede">Five bedrooms on twelve private acres in the southern Adirondacks, with
+    rights to Antler Lake at the bottom of the road. Two wood stoves, a full kitchen, and
+    enough space that twelve people are not living on top of each other.</p>
+
+    <p>It is a Cape Cod, and it has been lived in rather than staged. The kitchen counters are
+    local garnet stone, quarried a few miles up the road at Barton Mines. Both wood stoves work
+    and get used. The house comes furnished, so you arrive with food and clothes and nothing else.</p>
+
+    <p>What people tend to like most is the quiet. Twelve acres means the nearest neighbour is
+    not in the window, and the only thing you hear at night is the wind. That is either exactly
+    what you came for or it is not, and it is worth knowing which before you book.</p>
+
+    <p>Gore Mountain is twenty minutes away and the North Creek Ski Bowl, which is the better
+    base if half your group is learning, is about ten. In summer the lake is a two-minute walk
+    and the Hudson is close enough to raft in the morning and be back for lunch.</p>
+
+    <p><a href="{{ '/book/' | relative_url }}">Check your dates</a> &middot;
+       <a href="{{ '/rates/' | relative_url }}">what it costs</a> &middot;
+       <a href="{{ '/area/' | relative_url }}">what there is to do</a></p>
+  </div>
+
+  <h2>The house</h2>
+  <div class="gal">
+    {% for i in (2..25) %}
+    {% assign n = i | prepend: '0' | slice: -2, 2 %}
+    <a href="{{ '/assets/photos/antler-lake/' | append: n | append: '.jpg' | relative_url }}">
+      <img src="{{ '/assets/photos/thumbs/' | append: n | append: '.jpg' | relative_url }}"
+           alt="160 Antler Lake, photograph {{ i }}" loading="lazy" width="720" height="540">
+    </a>
+    {% endfor %}
+  </div>
+  <p class="small" style="margin-top:10px"><a href="{{ '/the-house/' | relative_url }}">All
+    {{ site.data.properties[0].photos }} photographs, room by room &rarr;</a></p>
+
+  <div class="cols" style="margin-top:44px">
+    <div>
+      <h2 style="margin-top:0">Booking direct</h2>
+      <p>There is no platform booking fee here, which is most of the reason this site exists.
+      On the big sites a guest typically pays a service fee on top of the nightly rate; booking
+      here, that money stays in your pocket rather than going to a intermediary.</p>
+      <p>You are also emailing the person who owns the house. If the well pump fails or you
+      cannot find the snow shovel, there is no support queue in between.</p>
+      <p class="small">New York State and Warren County sales and occupancy taxes are added at
+      checkout and shown as separate lines. They are collected on behalf of the state and the
+      county and passed straight on &mdash; they are not ours.</p>
+    </div>
+    <div>
+      <h2 style="margin-top:0">Practical</h2>
+      <div class="facts" style="margin-top:0">
+        <div><dt>Check in</dt><dd>4:00 pm</dd></div>
+        <div><dt>Check out</dt><dd>10:00 am</dd></div>
+        <div><dt>Minimum stay</dt><dd>2&ndash;5 nights</dd></div>
+        <div><dt>Pets</dt><dd>Yes, with a fee</dd></div>
+        <div><dt>Parking</dt><dd>Off street, plenty</dd></div>
+        <div><dt>Nearest shop</dt><dd>10 min</dd></div>
+      </div>
+      <p class="small">Minimum stay depends on the season &mdash; two nights most of the year,
+      longer over Christmas and the holiday ski weeks. The booking page works it out for your
+      dates and tells you before you pay.</p>
+    </div>
+  </div>
+
+  <div class="note warm" style="margin-top:34px">
+    <p style="margin:0"><b>Winter driving, honestly.</b> The last stretch of road is plowed but
+    it is the Adirondacks in February. A front-wheel-drive car with proper winter tyres is
+    usually fine; summer tyres are not, whatever the car. If a storm is forecast for your
+    arrival day, message me and I will tell you what the road is actually doing rather than
+    what the forecast says.</p>
+  </div>
+</div>
