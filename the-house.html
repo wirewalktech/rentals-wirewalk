@@ -1,0 +1,65 @@
+---
+layout: default
+title: The house
+description: >-
+  Five bedrooms, two bathrooms, two wood stoves and a full kitchen on twelve
+  private acres. Every room, photographed.
+permalink: /the-house/
+---
+<div class="wrap">
+  <div class="prose">
+    <h1>The house</h1>
+    <p class="lede">A five-bedroom Cape Cod, furnished and lived in rather than staged. Two wood
+    stoves, a full kitchen, and twelve acres of quiet around it.</p>
+
+    <p>It sleeps ten across five bedrooms, which means nobody is on a sofa bed unless they want
+    to be. Two bathrooms for ten people is the honest constraint of the house, and worth knowing
+    before a ski morning when everyone wants to be out by half past eight.</p>
+
+    <p>The kitchen counters are garnet stone, quarried a few miles up the road at Barton Mines.
+    It is the sort of detail you notice on the second day. Both wood stoves work, there is wood,
+    and the second one is in the room you will actually sit in.</p>
+  </div>
+
+  <div class="facts">
+    <div><dt>Bedrooms</dt><dd>5</dd></div>
+    <div><dt>Bathrooms</dt><dd>2</dd></div>
+    <div><dt>Sleeps</dt><dd>10</dd></div>
+    <div><dt>Acres</dt><dd>12</dd></div>
+    <div><dt>Wood stoves</dt><dd>2</dd></div>
+    <div><dt>Furnished</dt><dd>Fully</dd></div>
+  </div>
+
+  <h2>Every room</h2>
+  <div class="gal">
+    {% for i in (1..38) %}{% assign n = i | prepend: '0' | slice: -2, 2 %}
+    <a href="{{ '/assets/photos/antler-lake/' | append: n | append: '.jpg' | relative_url }}">
+      <img src="{{ '/assets/photos/thumbs/' | append: n | append: '.jpg' | relative_url }}"
+           alt="160 Antler Lake, photograph {{ i }}" loading="lazy" width="720" height="540"></a>
+    {% endfor %}
+  </div>
+
+  <div class="cols" style="margin-top:40px">
+    <div>
+      <h2 style="margin-top:0">What is here</h2>
+      <p>Full kitchen with oven, hob, fridge-freezer, microwave, coffee maker, and enough crockery
+      and pans for ten. Washer and dryer. Wi-fi. Two wood stoves with wood supplied. Barbecue on
+      the deck. Off-street parking for several cars.</p>
+      <p>Bed linen and towels are provided, which is not universal around here &mdash; a good
+      number of Adirondack rentals ask you to bring your own, so it is worth saying.</p>
+    </div>
+    <div>
+      <h2 style="margin-top:0">What is not</h2>
+      <p>No hot tub. No air conditioning, which has never once been a problem at this altitude.
+      No dishwasher. Mobile signal is patchy depending on your carrier, and there is wi-fi for
+      exactly that reason.</p>
+      <p>It is a proper Adirondack house rather than a hotel. If something is missing that you
+      need, message me before you come and I will usually sort it.</p>
+    </div>
+  </div>
+
+  <div class="acts" style="margin-top:26px">
+    <a class="btn book-btn" href="{{ '/book/' | relative_url }}">Check your dates</a>
+    <a href="{{ '/rates/' | relative_url }}" style="align-self:center">What it costs</a>
+  </div>
+</div>

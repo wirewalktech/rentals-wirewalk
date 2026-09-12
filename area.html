@@ -1,0 +1,71 @@
+---
+layout: default
+title: The area
+description: >-
+  What there is to do around 160 Antler Lake, season by season — skiing, lakes,
+  hiking, rainy days, eating, and the practical things you need to know.
+permalink: /area/
+---
+<div class="wrap"><div class="prose">
+  <h1>The area</h1>
+  <p class="lede">{{ site.data.area.categories | map: 'items' | join: ',' | split: ',' | size }}
+  places within about forty-five minutes, sorted by what you actually want. Drive times are from
+  the house and assume Adirondack roads, not motorways.</p>
+  <p class="small">Seasonal hours change constantly up here, and a few of these are marked as
+  worth phoning first. Where that is the case it says so rather than pretending otherwise.</p>
+</div>
+
+<div class="season-tabs">
+  <a href="#" data-s="all" aria-current="page">Everything</a>
+  <a href="#" data-s="winter">Winter</a>
+  <a href="#" data-s="spring">Spring</a>
+  <a href="#" data-s="summer">Summer</a>
+  <a href="#" data-s="fall">Autumn</a>
+</div>
+
+{% for c in site.data.area.categories %}
+<h2 id="{{ c.category | slugify }}">{{ c.category }}</h2>
+{% if c.intro %}<p class="prose">{{ c.intro }}</p>{% endif %}
+<div class="places">
+  {% for i in c.items %}
+  <div class="place" data-seasons="{{ i.seasons | join: ' ' }}{% if i.seasons contains 'all year' %} winter spring summer fall{% endif %}">
+    <h4>{{ i.name }}</h4>
+    <div class="meta"><b>{{ i.drive_minutes }} min</b> &middot; {{ i.town }}
+      {% if i.cost_band %}&middot; {{ i.cost_band }}{% endif %}
+      {% if i.confidence == 'check-before-publishing' %}&middot; <b>phone first</b>{% endif %}</div>
+    <p>{{ i.what }}</p>
+    {% if i.note %}<p class="tip">{{ i.note }}</p>{% endif %}
+    {% if i.url and i.url != '' %}<p class="tip"><a href="{{ i.url }}" rel="noopener">{{ i.url | replace: 'https://', '' | replace: 'http://', '' | truncate: 44 }}</a></p>{% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endfor %}
+
+<div class="prose" style="margin-top:40px">
+  <div class="acts"><a class="btn book-btn" href="{{ '/book/' | relative_url }}">Check your dates</a></div>
+</div></div>
+
+<script>
+/* Season filter. Plain show/hide — no animation, and it degrades to showing
+   everything if the script never runs. */
+const tabs = document.querySelectorAll(".season-tabs a");
+const places = document.querySelectorAll(".place");
+tabs.forEach(t => t.addEventListener("click", e => {
+  e.preventDefault();
+  const want = t.dataset.s;
+  tabs.forEach(x => x.removeAttribute("aria-current"));
+  t.setAttribute("aria-current", "page");
+  places.forEach(p => {
+    p.hidden = want !== "all" && !(p.dataset.seasons || "").includes(want);
+  });
+  document.querySelectorAll("h2[id]").forEach(h => {
+    let n = h.nextElementSibling;
+    while (n && !n.classList.contains("places")) n = n.nextElementSibling;
+    const any = n && [...n.children].some(c => !c.hidden);
+    h.hidden = !any;
+    if (n) n.hidden = !any;
+    const intro = h.nextElementSibling;
+    if (intro && intro.tagName === "P") intro.hidden = !any;
+  });
+}));
+</script>

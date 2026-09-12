@@ -1,0 +1,172 @@
+---
+layout: default
+title: Check dates and book
+description: >-
+  Check availability, see every line of the price including taxes, and book
+  directly with the owner. No platform booking fee.
+permalink: /book/
+---
+<div class="wrap"><div class="prose">
+  <h1>Check your dates</h1>
+  <p class="lede">Pick your dates and you will see every line of the price before anything is
+  charged, including both taxes. Nothing is held until you go through to payment.</p>
+</div>
+
+<div class="cols" style="align-items:start">
+  <div class="card">
+    <div class="row2">
+      <div class="fld"><label for="ci">Arriving</label><input id="ci" type="date"></div>
+      <div class="fld"><label for="co">Leaving</label><input id="co" type="date"></div>
+    </div>
+    <div class="row2">
+      <div class="fld"><label for="g">Guests <span class="h">&mdash; sleeps 10</span></label>
+        <select id="g">{% for n in (1..10) %}<option value="{{ n }}"{% if n == 4 %} selected{% endif %}>{{ n }}</option>{% endfor %}</select></div>
+      <div class="fld"><label for="p">Bringing a dog</label>
+        <select id="p"><option value="">No</option><option value="1">Yes &mdash; $85</option></select></div>
+    </div>
+    <div id="msg" class="msg" hidden></div>
+    <div id="sum" hidden></div>
+
+    <div id="guest" hidden>
+      <h3 style="margin-top:22px">Your details</h3>
+      <div class="row2">
+        <div class="fld"><label for="nm">Name</label><input id="nm" type="text" autocomplete="name"></div>
+        <div class="fld"><label for="em">Email</label><input id="em" type="email" autocomplete="email"></div>
+      </div>
+      <div class="row2">
+        <div class="fld"><label for="ph">Phone <span class="h">&mdash; optional</span></label><input id="ph" type="tel" autocomplete="tel"></div>
+        <div class="fld"><label for="nt">Anything I should know <span class="h">&mdash; optional</span></label><input id="nt" type="text"></div>
+      </div>
+      <div id="ts" style="margin:12px 0"></div>
+      <button id="go" class="btn book-btn" disabled>Continue to payment</button>
+      <p class="small" style="margin-top:10px">Payment is handled by Stripe. Card details never
+      touch this site. Your dates are held for 20 minutes while you pay.</p>
+    </div>
+  </div>
+
+  <div>
+    <div class="card">
+      <h3 style="margin-top:0">Booking direct</h3>
+      <p class="small">No platform service fee. You are booking with the owner, and the email
+      goes to a person rather than a queue.</p>
+      <p class="small">A <b>$500 security deposit</b> is authorised against your card and released
+      after checkout. It is held, not charged, and ordinary wear is not deducted from it.</p>
+      <p class="small">Summer weeks run Saturday to Saturday and ski weeks Friday to Friday.
+      Minimums vary by season &mdash; if your dates do not work the box above will say so and why.</p>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Rather just ask?</h3>
+      <p class="small">Email <a href="mailto:stay@wirewalk.com">stay@wirewalk.com</a>. If you are
+      trying to work out whether the house suits a particular group, that is usually a faster
+      conversation than a form.</p>
+    </div>
+  </div>
+</div></div>
+
+<style>
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:560px){.row2{grid-template-columns:1fr}}
+.fld{margin:0 0 14px}
+.fld label{display:block;font-size:14.5px;font-weight:600;margin-bottom:5px}
+.fld label .h{font-weight:400;color:var(--ink-2)}
+.fld input,.fld select{width:100%;padding:11px 12px;font-size:16px;font-family:inherit;
+  color:var(--ink);background:#fff;border:1px solid var(--line-2);border-radius:4px}
+.fld input:focus,.fld select:focus{outline:2px solid var(--pine);outline-offset:1px}
+.msg{padding:12px 15px;border-radius:4px;font-size:15px;margin:0 0 14px}
+.msg.bad{background:#FBEDE9;border-left:3px solid var(--ember)}
+.msg.wait{background:var(--sky);border-left:3px solid var(--line-2);color:var(--ink-2)}
+table.q{width:100%;border-collapse:collapse;font-size:15px;margin:6px 0 0}
+table.q td{padding:9px 0;border-bottom:1px solid var(--line)}
+table.q td.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+table.q tr.t td{border-bottom:0;border-top:2px solid var(--ink);font-weight:700;font-size:17px;padding-top:11px}
+table.q tr.d td{color:var(--ink-2);font-size:14px}
+button.btn{border:0;cursor:pointer;font-size:16px;padding:13px 22px}
+button.btn:disabled{opacity:.5;cursor:default}
+</style>
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
+<script>
+const API = "https://wirewalk-orders.wirewalk-upload.workers.dev";
+const SITE_KEY = "0x4AAAAAAEuBwz8OpbI3bmtE";
+const $ = s => document.querySelector(s);
+const money = c => "$" + (c / 100).toLocaleString("en-US", { minimumFractionDigits: 2 });
+let quote = null, widgetId = null, tsToken = null;
+
+const today = new Date().toISOString().slice(0, 10);
+$("#ci").min = today; $("#co").min = today;
+
+function say(t, cls) { const m = $("#msg"); m.hidden = !t; m.className = "msg " + (cls || ""); m.textContent = t || ""; }
+
+/* THE ONE RULE: the browser sends dates, never a price. Everything below is
+   display of what the server said. The server prices it again at checkout. */
+async function price() {
+  const ci = $("#ci").value, co = $("#co").value;
+  $("#sum").hidden = true; $("#guest").hidden = true; quote = null;
+  if (!ci || !co) return say("");
+  say("Checking those dates…", "wait");
+  let d;
+  try {
+    const r = await fetch(API + "/rental/quote", {
+      method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ property: "antler-lake", checkin: ci, checkout: co,
+                             guests: Number($("#g").value), pets: !!$("#p").value }),
+    });
+    d = await r.json();
+  } catch { return say("Could not reach the booking system. Try again, or email stay@wirewalk.com.", "bad"); }
+
+  if (d.error) return say(d.error, "bad");
+  if (!d.available) return say("Those dates are already taken. Try different ones — or email me, because a short move either way often works.", "bad");
+
+  quote = d; say("");
+  $("#sum").hidden = false;
+  $("#sum").innerHTML =
+    "<h3 style='margin:18px 0 4px'>" + d.nights + " night" + (d.nights > 1 ? "s" : "") + "</h3>" +
+    "<table class='q'>" +
+    d.lines.map(l => "<tr class='" + (l.amount < 0 ? "d" : "") + "'><td>" + l.label +
+      "</td><td class='n'>" + money(l.amount) + "</td></tr>").join("") +
+    "<tr class='t'><td>Total</td><td class='n'>" + money(d.total) + "</td></tr></table>" +
+    "<p class='small' style='margin-top:10px'>Plus a " + money(d.securityDeposit) +
+    " deposit held against the card and released after checkout — not charged.</p>";
+  $("#guest").hidden = false;
+  mountTurnstile();
+}
+
+function mountTurnstile() {
+  if (!window.turnstile || widgetId !== null) return;
+  widgetId = turnstile.render("#ts", {
+    sitekey: SITE_KEY,
+    callback: t => { tsToken = t; $("#go").disabled = false; },
+    "expired-callback": () => { tsToken = null; $("#go").disabled = true; },
+  });
+}
+
+["#ci", "#co", "#g", "#p"].forEach(s => $(s).addEventListener("change", price));
+
+$("#go").addEventListener("click", async () => {
+  if (!quote) return;
+  const name = $("#nm").value.trim(), email = $("#em").value.trim();
+  if (name.length < 2) return say("A name, please.", "bad");
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return say("That email does not look right.", "bad");
+  if (!tsToken) return say("Just finishing the verification — one moment.", "wait");
+
+  $("#go").disabled = true; say("Holding your dates…", "wait");
+  let d;
+  try {
+    const r = await fetch(API + "/rental/book", {
+      method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ property: "antler-lake", checkin: quote.checkin, checkout: quote.checkout,
+        guests: quote.guests, pets: quote.pets, name, email,
+        phone: $("#ph").value.trim(), note: $("#nt").value.trim(), token: tsToken }),
+    });
+    d = await r.json();
+  } catch { $("#go").disabled = false; return say("Could not reach the booking system.", "bad"); }
+
+  if (d.code === "dates_gone") { $("#go").disabled = false; return say(
+    "Somebody booked those dates while you were filling this in. Genuinely sorry — pick different dates and the price will update.", "bad"); }
+  if (d.error || !d.url) { $("#go").disabled = false;
+    /* the token is single-use: a retry needs a fresh one */
+    if (widgetId !== null) { turnstile.reset(widgetId); tsToken = null; }
+    return say(d.error || "Could not start checkout.", "bad"); }
+  window.location = d.url;
+});
+</script>

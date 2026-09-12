@@ -1,0 +1,86 @@
+---
+layout: default
+title: Rates
+description: >-
+  Seasonal nightly, weekend and weekly rates, cleaning, taxes and the security
+  deposit. Every figure resolved by the booking system, not typed onto a page.
+permalink: /rates/
+---
+<div class="wrap"><div class="prose">
+  <h1>What it costs</h1>
+  <p class="lede">Published in full, including the taxes. The booking page works out your exact
+  dates and shows every line before you pay anything.</p>
+</div>
+
+<div class="tw">
+  <table class="rates" id="card">
+    <thead><tr><th>Season</th><th>When</th><th class="n">Midweek</th><th class="n">Fri &amp; Sat</th>
+      <th class="n">Week</th><th class="n">Min</th></tr></thead>
+    <tbody><tr><td colspan="6" class="small">Loading current rates&hellip;</td></tr></tbody>
+  </table>
+</div>
+
+<div class="prose">
+  <p class="small">Rates are per night for the whole house, up to ten guests. A week is seven
+  nights; the weekly rate is a 15% reduction on the nightly total, and stays of 28 nights or more
+  take 35% off. Friday and Saturday nights carry a 25% uplift &mdash; the weekend is the part
+  that is scarce.</p>
+
+  <h2>On top of the nightly rate</h2>
+  <div class="tw"><table class="rates">
+    <tr><td class="season">Cleaning</td><td class="when">Once per stay, whatever the length</td><td class="n price">$275</td></tr>
+    <tr><td class="season">Pets</td><td class="when">Once per stay, tell me in advance</td><td class="n price">$85</td></tr>
+    <tr><td class="season">NY State and Warren County sales tax</td><td class="when">On the rent and the fees</td><td class="n">7.00%</td></tr>
+    <tr><td class="season">Warren County occupancy tax</td><td class="when">On the rent and the fees</td><td class="n">4.00%</td></tr>
+    <tr><td class="season">Security deposit</td><td class="when">Held against the card, released after checkout</td><td class="n price">$500</td></tr>
+  </table></div>
+
+  <p class="small">The two taxes are collected on behalf of New York State and Warren County and
+  passed straight on. They are not mine. New York began applying state sales tax to short-term
+  rental occupancy in March 2025, so if you are comparing against an older listing somewhere
+  else, check whether their figure includes it.</p>
+
+  <div class="note warm">
+    <p style="margin:0"><b>The deposit is held, not charged.</b> It is authorised against your
+    card and released after checkout. It is not taken as payment, it is never netted against the
+    balance, and ordinary wear is not deducted from it. It exists for real damage and for the
+    septic system.</p>
+  </div>
+
+  <h2>Changeover days</h2>
+  <p>Summer weeks run Saturday to Saturday. Ski weeks run Friday to Friday, which is the local
+  convention and lets you get a full day on the mountain on the Saturday. Outside those seasons
+  any day works.</p>
+
+  <h2>Minimum stays</h2>
+  <p>Two nights most of the year. Three at MLK weekend, four at Presidents week, five over
+  Christmas and New Year, and summer is a full week. If your dates cross more than one season,
+  the longer minimum applies &mdash; the booking page tells you before you get as far as paying.</p>
+
+  <div class="acts"><a class="btn book-btn" href="{{ '/book/' | relative_url }}">Check your dates</a></div>
+</div></div>
+
+<script>
+/* The table is fetched rather than typed, so the published rate and the rate
+   the booking system charges cannot drift apart. That divergence is the usual
+   reason a guest arrives at checkout convinced they have been overcharged. */
+const API = "https://wirewalk-orders.wirewalk-upload.workers.dev";
+const money = c => "$" + Math.round(c / 100).toLocaleString();
+fetch(API + "/rental/property?slug=antler-lake")
+  .then(r => r.ok ? r.json() : Promise.reject(r.status))
+  .then(d => {
+    const rows = (d.rates && d.rates.rows) || [];
+    if (!rows.length) throw new Error("no rows");
+    document.querySelector("#card tbody").innerHTML = rows.map(r => {
+      const when = r.from && r.to ? r.from.replace("-", "/") + " to " + r.to.replace("-", "/") : "";
+      return `<tr><td class="season">${r.season}</td><td class="when">${when}</td>` +
+             `<td class="n price">${money(r.midweek)}</td><td class="n price">${money(r.weekend)}</td>` +
+             `<td class="n">${money(r.week)}</td><td class="n">${r.minNights}</td></tr>`;
+    }).join("");
+  })
+  .catch(() => {
+    document.querySelector("#card tbody").innerHTML =
+      '<tr><td colspan="6" class="small">Rates could not be loaded just now. ' +
+      'Email <a href="mailto:stay@wirewalk.com">stay@wirewalk.com</a> and I will send them.</td></tr>';
+  });
+</script>
