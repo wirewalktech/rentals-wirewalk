@@ -10,19 +10,20 @@ permalink: /
 
 <div class="wrap">
   <div class="hero">
-    <img src="{{ '/assets/photos/antler-lake/01.jpg' | relative_url }}"
-         alt="160 Antler Lake Rd, Wevertown, New York" fetchpriority="high">
+    <img src="{{ '/assets/photos/antler-lake/29.jpg' | relative_url }}"
+         alt="Chairs at the edge of Antler Lake on a summer afternoon" fetchpriority="high">
     <div class="hero-meta">
       <span><b>5</b> bedrooms</span><span><b>2</b> bathrooms</span>
       <span>sleeps <b>12</b></span><span><b>12</b> acres</span>
-      <span>lake rights</span><span><b>20 min</b> to Gore Mountain</span>
+      <span>warm, <b>non-motorized</b> lake</span><span><b>canoe</b> included</span><span><b>20 min</b> to Gore Mountain</span>
     </div>
   </div>
 
   <div class="prose" style="margin-top:30px">
     <h1>A house with room for everyone, twenty minutes from the mountain</h1>
     <p class="lede">Five bedrooms on twelve private acres in the southern Adirondacks, with
-    rights to Antler Lake at the bottom of the road. Two wood stoves, a full kitchen, and
+    rights to a small, warm, non-motorized lake at the bottom of the road &mdash; the kind
+    children stay in all afternoon. Two wood stoves, a full kitchen, and
     enough space that twelve people are not living on top of each other.</p>
 
     <p>It is a Cape Cod, and it has been lived in rather than staged. The kitchen counters are
@@ -42,10 +43,74 @@ permalink: /
        <a href="{{ '/area/' | relative_url }}">what there is to do</a></p>
   </div>
 
+
+  <h2 id="lake">The lake</h2>
+  <div class="cols">
+    <div>
+      <p>Antler Lake is small, and that is the whole point of it.</p>
+
+      <p>The big Adirondack lakes are cold. Schroon, George, Thirteenth &mdash; they are deep,
+      they are fed from underneath, and they stay bracing into August. Children last about four
+      minutes and then want to get out. Antler is shallow and sheltered, so it takes the sun and
+      holds it, and by the end of June it swims like a bath. That is the difference between a
+      lake you photograph and a lake the children are still in at six o'clock.</p>
+
+      <p>It is also a <b>non-motorized lake</b>. No ski boats, no jet skis, nothing towing
+      anything. Canoes, kayaks, paddleboards and swimming, and that is it. Which means no wake,
+      no two-stroke noise across the water in the evening, and no one doing forty miles an hour
+      past a child on a float. The quiet is not a happy accident &mdash; it is a rule, and it is
+      why the water is warm and why the fishing is any good.</p>
+
+      <p>There is a shared sand beach and a dock. It is a two-minute walk from the house,
+      down a right of way rather than along a public road.</p>
+
+      <p><b>There is a canoe.</b> It comes with the house, so you can be on the water without
+      strapping anything to the roof of the car. On a lake with no motors, a canoe is not a
+      compromise &mdash; it is the right boat.</p>
+
+      <figure style="margin:20px 0 0">
+        <img src="{{ '/assets/photos/antler-lake/35.jpg' | relative_url }}"
+             alt="Antler Lake from above, with the Gore Mountain ridge behind"
+             loading="lazy" style="width:100%;border-radius:3px;display:block">
+        <figcaption class="small" style="margin-top:8px">Antler Lake from above. The cleared
+          lines on the ridge in the distance are Gore's ski trails &mdash; you can see the
+          mountain you will be skiing in February from the water you are swimming in in July.
+          That is the whole property in one photograph.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <p><b>The fishing.</b> A quiet, unpressured lake with no motor traffic fishes far better
+      than its size suggests. Early morning and the last hour of light are the ones worth getting
+      up or staying out for. Bring your own rods &mdash; there is no tackle shop at the water, and
+      the nearest one is in North Creek.</p>
+
+      <p class="small">Anyone sixteen or over needs a New York State fishing licence. They are
+      sold online by the DEC and at sporting goods shops locally, and a short-term non-resident
+      licence costs very little. Seasons and size limits vary by species and by water, so check
+      the current DEC regulations before you keep anything.</p>
+
+      <div class="note warm">
+        <p style="margin:0"><b>No lifeguard, and no staff.</b> It is a beach on a small lake,
+        not a facility. There are no bathrooms, nobody is watching the water, and mobile signal
+        down there ranges from poor to none. If small children are swimming, an adult is the
+        lifeguard. Said plainly because it is the kind of thing people assume the other way
+        round.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">
+    <p style="margin:0"><b>What summer actually looks like here.</b> Swim in the morning while
+    the water is flat. Raft the Hudson Gorge and be back for lunch. Walk up something small in
+    the afternoon. Then the lake again, because it is warmer at five than it was at eleven.
+    <a href="{{ '/area/' | relative_url }}">The rest of what there is to do &rarr;</a></p>
+  </div>
+
   <h2>The house</h2>
   <div class="gal">
-    {% for i in (2..25) %}
+    {% for i in (2..27) %}
     {% assign n = i | prepend: '0' | slice: -2, 2 %}
+    {% if n == '29' or n == '35' %}{% continue %}{% endif %}
     <a href="{{ '/assets/photos/antler-lake/' | append: n | append: '.jpg' | relative_url }}">
       <img src="{{ '/assets/photos/thumbs/' | append: n | append: '.jpg' | relative_url }}"
            alt="160 Antler Lake, photograph {{ i }}" loading="lazy" width="720" height="540">
