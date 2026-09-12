@@ -1,0 +1,97 @@
+---
+layout: default
+title: You're booked
+description: Booking confirmation for 160 Antler Lake.
+permalink: /booked/
+---
+<div class="wrap"><div class="prose">
+  <div id="state"><h1>Just confirming with the bank&hellip;</h1>
+  <p class="lede">One moment. Do not refresh.</p></div>
+
+  <div id="ok" hidden>
+    <h1>That's yours</h1>
+    <p class="lede">The dates are held in your name and I have your email. You will get a
+    confirmation from Stripe for the payment, and a note from me with the practical things
+    &mdash; directions, the door code, where the wood is.</p>
+
+    <div class="card" id="detail"></div>
+
+    <h2>Before you come</h2>
+    <p><b>Tell me roughly when you expect to arrive.</b> Not to the minute &mdash; just morning,
+    afternoon or late, so the heat is on and the drive is clear if it has snowed.</p>
+    <p><b>Do the big shop on the way in.</b> The nearest proper supermarket is about ten minutes
+    away in North Creek and it closes earlier than you would expect. There is no shop closer.</p>
+    <p><b>If you are coming in winter</b>, message me the day before and I will tell you what the
+    road is actually doing rather than what the forecast says.</p>
+
+    <p>Anything at all: <a href="mailto:rentals@wirewalk.com">rentals@wirewalk.com</a>. It comes
+    to me, not to a queue.</p>
+
+    <div class="acts">
+      <a class="btn book-btn" href="{{ '/area/' | relative_url }}">Start planning what to do</a>
+      <a href="{{ '/house-rules/' | relative_url }}" style="align-self:center">House rules</a>
+    </div>
+  </div>
+
+  <div id="pending" hidden>
+    <h1>Payment is still clearing</h1>
+    <p class="lede">Your dates are held. Some payment types take a little while to settle, and
+    the booking confirms itself the moment it does.</p>
+    <p>If you do not hear from me within a few hours, email
+    <a href="mailto:rentals@wirewalk.com">rentals@wirewalk.com</a> with the reference below and
+    I will chase it.</p>
+    <div class="card" id="detail2"></div>
+  </div>
+
+  <div id="unknown" hidden>
+    <h1>I cannot find that booking</h1>
+    <p class="lede">Which usually means the link has been opened twice, or the payment did not
+    complete.</p>
+    <p>Nothing has been charged twice &mdash; the system will not allow it. Email
+    <a href="mailto:rentals@wirewalk.com">rentals@wirewalk.com</a> and I will tell you exactly
+    where it stands, or just <a href="{{ '/book/' | relative_url }}">try the dates again</a>.</p>
+  </div>
+</div></div>
+
+<script>
+const API = "https://wirewalk-orders.wirewalk-upload.workers.dev";
+const id = new URLSearchParams(location.search).get("id");
+const $ = s => document.querySelector(s);
+const money = c => "$" + (c/100).toLocaleString("en-US",{minimumFractionDigits:2});
+const pretty = d => { const x = new Date(d + "T12:00:00Z");
+  return x.toLocaleDateString("en-GB", {weekday:"short", day:"numeric", month:"long", year:"numeric", timeZone:"UTC"}); };
+
+function show(which, b) {
+  $("#state").hidden = true;
+  $("#" + which).hidden = false;
+  if (!b) return;
+  const html =
+    "<p style='margin:0 0 6px'><b>" + pretty(b.checkin) + "</b> to <b>" + pretty(b.checkout) + "</b></p>" +
+    "<p class='small' style='margin:0'>" + b.nights + " night" + (b.nights>1?"s":"") +
+    ", " + b.guests + " guest" + (b.guests>1?"s":"") +
+    (b.total_minor ? " &middot; " + money(b.total_minor) : "") +
+    "<br>Reference <span class='num'>" + b.id + "</span></p>";
+  const el = which === "ok" ? $("#detail") : $("#detail2");
+  if (el) el.innerHTML = html;
+}
+
+if (!id) { show("unknown"); } else {
+  /* The webhook confirms the booking, and it can land a moment after the
+     browser gets here. Poll briefly rather than telling somebody who has just
+     paid that their booking does not exist. */
+  let tries = 0;
+  (function check() {
+    fetch(API + "/rental/booking?id=" + encodeURIComponent(id))
+      .then(r => r.ok ? r.json() : Promise.reject())
+      .then(d => {
+        if (!d || !d.booking) throw new Error();
+        const s = d.booking.status;
+        if (s === "confirmed") return show("ok", d.booking);
+        if (s === "held" && tries < 6) { tries++; return setTimeout(check, 2000); }
+        if (s === "held") return show("pending", d.booking);
+        return show("unknown");
+      })
+      .catch(() => { if (tries < 4) { tries++; setTimeout(check, 2000); } else show("unknown"); });
+  })();
+}
+</script>

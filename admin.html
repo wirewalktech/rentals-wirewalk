@@ -1,0 +1,161 @@
+---
+layout: default
+title: Bookings
+description: Booking management.
+permalink: /admin/
+sitemap: false
+robots: noindex
+---
+<div class="wrap">
+  <div id="gate">
+    <h1>Bookings</h1>
+    <p class="lede">Enter the admin key.</p>
+    <div style="max-width:380px">
+      <input id="key" type="password" placeholder="Admin key" autocomplete="off"
+             style="width:100%;padding:12px;font-size:16px;border:1px solid var(--line-2);border-radius:4px">
+      <button id="unlock" class="btn book-btn" style="margin-top:10px;border:0;cursor:pointer">Open</button>
+      <p id="gm" class="small" style="color:var(--ember)"></p>
+    </div>
+  </div>
+
+  <div id="app" hidden>
+    <h1>Bookings</h1>
+    <div class="acts" style="margin:0 0 18px">
+      <button class="btn" id="tab-list" style="border:0;cursor:pointer;background:var(--pine);color:#fff">All bookings</button>
+      <button class="btn" id="tab-add" style="border:1px solid var(--line-2);cursor:pointer;background:#fff">Block dates / owner stay</button>
+      <button class="btn" id="signout" style="border:1px solid var(--line-2);cursor:pointer;background:#fff">Sign out</button>
+    </div>
+
+    <div id="list">
+      <div class="tw"><table class="rates" id="tbl">
+        <thead><tr><th>Dates</th><th>Nights</th><th>Who</th><th>Kind</th><th>Status</th>
+          <th class="n">Total</th><th></th></tr></thead>
+        <tbody><tr><td colspan="7" class="small">Loading&hellip;</td></tr></tbody>
+      </table></div>
+      <p class="small" id="count"></p>
+    </div>
+
+    <div id="add" hidden>
+      <div class="card" style="max-width:620px">
+        <h2 style="margin-top:0">Block dates</h2>
+        <p class="small">Owner stays, friends and family, and maintenance all go through the same
+        availability check as a paying guest, so you cannot book over a guest by accident.</p>
+        <div class="row2">
+          <div class="fld"><label for="a-ci">Arriving</label><input id="a-ci" type="date"></div>
+          <div class="fld"><label for="a-co">Leaving</label><input id="a-co" type="date"></div>
+        </div>
+        <div class="row2">
+          <div class="fld"><label for="a-kind">Kind</label>
+            <select id="a-kind">
+              <option value="owner">Owner stay &mdash; no charge</option>
+              <option value="friends">Friends and family &mdash; half rate</option>
+              <option value="maintenance">Maintenance &mdash; no charge</option>
+              <option value="hold">Hold the dates</option>
+            </select></div>
+          <div class="fld"><label for="a-guests">Guests</label>
+            <select id="a-guests">{% for n in (1..10) %}<option{% if n == 4 %} selected{% endif %}>{{ n }}</option>{% endfor %}</select></div>
+        </div>
+        <div class="fld"><label for="a-name">Name on it <span class="h">&mdash; optional</span></label>
+          <input id="a-name" type="text"></div>
+        <div class="fld"><label for="a-note">Note <span class="h">&mdash; optional</span></label>
+          <input id="a-note" type="text"></div>
+        <button id="a-go" class="btn book-btn" style="border:0;cursor:pointer">Block these dates</button>
+        <p id="am" class="small"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:560px){.row2{grid-template-columns:1fr}}
+.fld{margin:0 0 14px}
+.fld label{display:block;font-size:14px;font-weight:600;margin-bottom:5px}
+.fld label .h{font-weight:400;color:var(--ink-2)}
+.fld input,.fld select{width:100%;padding:11px;font-size:16px;font-family:inherit;
+  border:1px solid var(--line-2);border-radius:4px;background:#fff;color:var(--ink)}
+td .k{display:inline-block;font-size:12px;padding:2px 8px;border-radius:20px;border:1px solid var(--line-2)}
+td .k.confirmed{background:#E8F0EA;border-color:#B4D0BC}
+td .k.blocked{background:var(--sky)}
+td .k.held{background:#FDF3E5;border-color:#E8D5A8}
+td .k.cancelled{color:var(--ink-2);text-decoration:line-through}
+button.x{background:none;border:0;color:var(--ember);cursor:pointer;font-size:13.5px;text-decoration:underline}
+</style>
+
+<script>
+const API = "https://wirewalk-orders.wirewalk-upload.workers.dev";
+const $ = s => document.querySelector(s);
+const money = c => "$" + (c/100).toLocaleString("en-US",{minimumFractionDigits:2});
+const KEY = "ww_admin_key";
+let key = sessionStorage.getItem(KEY) || "";
+
+const KIND = { guest:"Guest", friends:"Friends &amp; family", owner:"Owner",
+               maintenance:"Maintenance", hold:"Hold" };
+
+async function api(path, opts = {}) {
+  const r = await fetch(API + path, { ...opts,
+    headers: { ...(opts.headers||{}), "X-Admin-Key": key,
+               ...(opts.body ? {"content-type":"application/json"} : {}) } });
+  if (r.status === 403) throw new Error("not authorised");
+  return r.json();
+}
+
+async function open_() {
+  try {
+    const d = await api("/rental/admin/bookings");
+    if (!d.ok) throw new Error(d.error || "failed");
+    sessionStorage.setItem(KEY, key);
+    $("#gate").hidden = true; $("#app").hidden = false;
+    draw(d.bookings || []);
+  } catch (e) { $("#gm").textContent = e.message === "not authorised"
+      ? "That key was not accepted." : "Could not reach the booking system."; }
+}
+
+function draw(rows) {
+  const live = rows.filter(r => r.status !== "cancelled");
+  $("#count").textContent = rows.length + " booking" + (rows.length===1?"":"s") +
+    " · " + live.length + " live";
+  $("#tbl").querySelector("tbody").innerHTML = rows.length ? rows.map(r => {
+    const who = r.kind === "guest" ? (r.name || r.email || "—") : (r.name || KIND[r.kind] || r.kind);
+    return "<tr><td class='season'>" + r.checkin + " → " + r.checkout + "</td>" +
+      "<td class='n'>" + r.nights + "</td><td class='when'>" + who + "</td>" +
+      "<td class='when'>" + (KIND[r.kind] || r.kind) + "</td>" +
+      "<td><span class='k " + r.status + "'>" + r.status + "</span></td>" +
+      "<td class='n'>" + (r.total_minor ? money(r.total_minor) : "—") + "</td>" +
+      "<td>" + (r.status === "cancelled" ? "" :
+        "<button class='x' data-cancel='" + r.id + "'>cancel</button>") + "</td></tr>";
+  }).join("") : "<tr><td colspan='7' class='small'>Nothing booked yet.</td></tr>";
+}
+
+$("#unlock").addEventListener("click", () => { key = $("#key").value.trim(); if (key) open_(); });
+$("#key").addEventListener("keydown", e => { if (e.key === "Enter") $("#unlock").click(); });
+$("#signout").addEventListener("click", () => { sessionStorage.removeItem(KEY); location.reload(); });
+$("#tab-list").addEventListener("click", () => { $("#list").hidden=false; $("#add").hidden=true; });
+$("#tab-add").addEventListener("click", () => { $("#list").hidden=true; $("#add").hidden=false; });
+
+$("#tbl").addEventListener("click", async e => {
+  const b = e.target.closest("button[data-cancel]"); if (!b) return;
+  if (!confirm("Cancel this booking? The dates go back on sale immediately.")) return;
+  await api("/rental/admin/cancel", { method:"POST", body: JSON.stringify({ id: b.dataset.cancel }) });
+  const d = await api("/rental/admin/bookings"); draw(d.bookings || []);
+});
+
+$("#a-go").addEventListener("click", async () => {
+  const body = { property:"antler-lake", checkin:$("#a-ci").value, checkout:$("#a-co").value,
+                 kind:$("#a-kind").value, guests:Number($("#a-guests").value),
+                 name:$("#a-name").value.trim(), note:$("#a-note").value.trim() };
+  if (!body.checkin || !body.checkout) { $("#am").textContent = "Both dates, please."; return; }
+  $("#a-go").disabled = true; $("#am").textContent = "Checking…";
+  try {
+    const d = await api("/rental/admin/booking", { method:"POST", body: JSON.stringify(body) });
+    $("#am").textContent = d.error
+      ? (d.code === "dates_gone" ? "Those dates are already taken." : d.error)
+      : "Blocked. " + (d.quote && d.quote.total ? money(d.quote.total) + " recorded." : "No charge.");
+    if (!d.error) { const l = await api("/rental/admin/bookings"); draw(l.bookings || []);
+                    $("#tab-list").click(); }
+  } catch (e) { $("#am").textContent = e.message; }
+  $("#a-go").disabled = false;
+});
+
+if (key) open_();
+</script>
